@@ -96,7 +96,7 @@ CREATE TABLE `employee` (
   `enddate` date DEFAULT NULL,
   `empaddress` varchar(200) NOT NULL,
   `emptype` varchar(50) NOT NULL,
-  `image` blob,
+  `image` longblob,
   `deptID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -158,7 +158,7 @@ CREATE TABLE `patient` (
   `patientlname` varchar(25) NOT NULL,
   `patientaddress` varchar(100) DEFAULT NULL,
   `dob` date NOT NULL,
-  `image` blob
+  `image` longblob
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
