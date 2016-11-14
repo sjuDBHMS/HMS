@@ -143,7 +143,7 @@ CREATE TABLE `LoginDetails` (
 -- Dumping data for table `logindetails`
 --
 
-INSERT INTO `Logindetails` (`ID`, `Password`, `Type`, `PatientID`, `EmpID`) VALUES
+INSERT INTO `LoginDetails` (`ID`, `Password`, `Type`, `PatientID`, `EmpID`) VALUES
 ('malduniawi', '12345', 1, NULL, 2);
 
 -- --------------------------------------------------------
