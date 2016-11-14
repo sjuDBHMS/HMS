@@ -72,7 +72,7 @@ INSERT INTO `bill` (`billid`, `pendingamount`, `totalamount`, `paid`, `apptid`) 
 
 CREATE TABLE `department` (
   `deptid` int(11) NOT NULL,
-  `deptname` varchar(150) NOT NULL
+  `deptname` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
