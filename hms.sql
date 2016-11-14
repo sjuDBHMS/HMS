@@ -318,7 +318,7 @@ ALTER TABLE `Bill`
 -- Constraints for table `employee`
 --
 ALTER TABLE `Employee`
-  ADD CONSTRAINT `employee_ibfk_1` FOREIGN KEY (`DeptID`) REFERENCES `department` (`DeptId`);
+  ADD CONSTRAINT `employee_ibfk_1` FOREIGN KEY (`DeptID`) REFERENCES `Department` (`DeptId`);
 
 --
 -- Constraints for table `employee_phone`
