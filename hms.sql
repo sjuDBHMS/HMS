@@ -133,7 +133,7 @@ INSERT INTO `Employee_Phone` (`Phone`, `EmpID`) VALUES
 
 CREATE TABLE `LoginDetails` (
   `ID` varchar(30) NOT NULL,
-  `Password` varchar(20) NOT NULL,
+  `Password` varchar(100) NOT NULL,
   `Type` int(10) NOT NULL,
   `PatientID` varchar(50) DEFAULT NULL,
   `EmpID` varchar(50) DEFAULT NULL
