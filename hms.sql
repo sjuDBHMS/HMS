@@ -134,7 +134,7 @@ INSERT INTO `Employee_Phone` (`Phone`, `EmpID`) VALUES
 CREATE TABLE `LoginDetails` (
   `ID` int(10) NOT NULL,
   `Password` varchar(100) NOT NULL,
-  `Type` int(10) NOT NULL,
+  `Type` varchar(10) NOT NULL,
   `PatientID` varchar(50) DEFAULT NULL,
   `EmpID` int(10) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
