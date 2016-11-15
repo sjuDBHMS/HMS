@@ -1,10 +1,11 @@
 <?php
-session_start();
-include_once 'dbconnect.php';
-
-if(!isset($_SESSION['user']))
-{
-	header("Location: index.php");
+include('session_receptionist.php');
+if(!isset($_SESSION["message"])){
+$message='';
+header( "refresh:300;url=../logout.php" );
+}else{
+$message=$_SESSION["message"];
+unset($_SESSION['message']);
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -12,17 +13,18 @@ if(!isset($_SESSION['user']))
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Welcome - <?php echo $_SESSION['user']; ?></title>
-<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" href="../css/style.css" type="text/css" />
 </head>
 
 <body>
+<h1>Welcome : <i><?php echo $userName; ?></h1>
 <div id="resHeader">
 	<div id="left">
     <label>Login</label>
     </div>
     <div id="right">
     	<div id="content">
-        	Welcome <?php echo $_SESSION['user']; ?>&nbsp;<a href="logout.php?logout">Sign Out</a>
+        	<a href="../logout.php?logout">Sign Out</a>
         </div>
     </div>
 </div>

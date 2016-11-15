@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
+-- version 4.4.3
 -- http://www.phpmyadmin.net
 --
--- Host: 127.0.0.1
--- Generation Time: Nov 11, 2016 at 04:04 AM
--- Server version: 10.1.16-MariaDB
--- PHP Version: 5.6.24
+-- Host: localhost
+-- Generation Time: Nov 15, 2016 at 08:56 PM
+-- Server version: 5.6.24
+-- PHP Version: 5.6.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -14,259 +14,254 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
 
 --
--- Database: `hms`
+-- Database: `HMS`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `appointment`
+-- Table structure for table `Appointment`
 --
 
-CREATE TABLE `Appointment` (
+CREATE TABLE IF NOT EXISTS `Appointment` (
   `ApptID` int(11) NOT NULL,
   `AppDate` date NOT NULL,
-  `AppTime` char(20) NOT NULL,
+  `AppTime` time NOT NULL,
   `Comments` varchar(1000) DEFAULT NULL,
   `Prescription` varchar(500) DEFAULT NULL,
-  `ApptStatus` varchar(400) DEFAULT NULL,
+  `ApptStatus` varchar(25) DEFAULT NULL,
   `PatientID` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=5603 DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `appointment`
+-- Dumping data for table `Appointment`
 --
 
-INSERT INTO `Appointment` (`ApptID`, `AppDate`, `AppTime`, `Comments`, `prescription`, `ApptStatus`, `PatientID`) VALUES
-(1, '2016-11-10', '9:30 AM', NULL, NULL, 'completed', 1);
+INSERT INTO `Appointment` (`ApptID`, `AppDate`, `AppTime`, `Comments`, `Prescription`, `ApptStatus`, `PatientID`) VALUES
+(5601, '2016-11-01', '14:30:00', NULL, NULL, 'closed', 198002),
+(5602, '2016-11-16', '10:41:00', NULL, NULL, NULL, 198001);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `bill`
+-- Table structure for table `Bill`
 --
 
-CREATE TABLE `Bill` (
-  `BillID` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `Bill` (
+  `BillId` int(11) NOT NULL,
   `PendingAmount` decimal(10,2) NOT NULL,
   `TotalAmount` decimal(10,2) NOT NULL,
   `Paid` decimal(10,2) NOT NULL,
   `ApptID` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=623002 DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `bill`
+-- Dumping data for table `Bill`
 --
 
-INSERT INTO `Bill` (`BillID`, `PendingAmount`, `TotalAmount`, `Paid`, `ApptID`) VALUES
-(2, '0.00', '500.00', '200.00', 1);
+INSERT INTO `Bill` (`BillId`, `PendingAmount`, `TotalAmount`, `Paid`, `ApptID`) VALUES
+(623001, '150.00', '150.00', '0.00', 5601);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `department`
+-- Table structure for table `Department`
 --
 
-CREATE TABLE `Department` (
-  `DeptID` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `Department` (
+  `DeptId` int(11) NOT NULL,
   `DeptName` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `department`
+-- Dumping data for table `Department`
 --
 
-INSERT INTO `Department` (`DeptID`, `DeptName`) VALUES
-(1, 'Surgery');
+INSERT INTO `Department` (`DeptId`, `DeptName`) VALUES
+(1, 'Surgery'),
+(2, 'Reception');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `employee`
+-- Table structure for table `Employee`
 --
 
-CREATE TABLE `Employee` (
-  `EmpID` int(10) NOT NULL,
+CREATE TABLE IF NOT EXISTS `Employee` (
+  `EmpID` int(11) NOT NULL,
   `EmpFName` varchar(40) NOT NULL,
   `EmpLName` varchar(40) NOT NULL,
   `StartDate` date NOT NULL,
   `EndDate` date DEFAULT NULL,
-  `EmpAddress` varchar(200) NOT NULL,
-  `EmpType` varchar(10) NOT NULL,
+  `EmpAddress` varchar(50) NOT NULL,
+  `EmpType` varchar(15) NOT NULL,
   `Image` longblob,
   `DeptID` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=12003 DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `employee`
+-- Dumping data for table `Employee`
 --
 
 INSERT INTO `Employee` (`EmpID`, `EmpFName`, `EmpLName`, `StartDate`, `EndDate`, `EmpAddress`, `EmpType`, `Image`, `DeptID`) VALUES
-(2, 'Mohammed', 'Khaled', '2015-11-08', NULL, '6100 City Avenue, Philadelphia, PA 19131', 'doctor', NULL, 1);
+(12001, 'Mohammed', 'Khaled', '2015-11-08', NULL, '6100 City Avenue, Philadelphia, PA 19131', 'doctor', NULL, 1),
+(12002, 'kevin', 'james', '2016-11-01', NULL, '5600, city ave ,philadelphia', 'receptioni', NULL, 2);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `employee_phone`
+-- Table structure for table `Employee_Phone`
 --
 
-CREATE TABLE `Employee_Phone` (
+CREATE TABLE IF NOT EXISTS `Employee_Phone` (
   `Phone` varchar(15) NOT NULL,
-  `EmpID` int(10) NOT NULL
+  `EmpID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `employee_phone`
---
-
-INSERT INTO `Employee_Phone` (`Phone`, `EmpID`) VALUES
-('215-777-2222', 2);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `logindetails`
+-- Table structure for table `LoginDetails`
 --
 
-CREATE TABLE `LoginDetails` (
-  `ID` int(10) NOT NULL,
+CREATE TABLE IF NOT EXISTS `LoginDetails` (
+  `LoginID` int(11) NOT NULL,
   `Password` varchar(100) NOT NULL,
-  `Type` int(10) NOT NULL,
-  `PatientID` varchar(50) DEFAULT NULL,
-  `EmpID` int(10) DEFAULT NULL
+  `Type` varchar(15) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `logindetails`
+-- Dumping data for table `LoginDetails`
 --
 
-INSERT INTO `LoginDetails` (`ID`, `Password`, `Type`, `PatientID`, `EmpID`) VALUES
-('malduniawi', '12345', 1, NULL, 2);
+INSERT INTO `LoginDetails` (`LoginID`, `Password`, `Type`) VALUES
+(12001, '12001', 'doctor'),
+(12002, '12002', 'receptionist'),
+(198001, '198001', 'patient');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `patient`
+-- Table structure for table `Patient`
 --
 
-CREATE TABLE `Patient` (
+CREATE TABLE IF NOT EXISTS `Patient` (
   `PatientID` int(11) NOT NULL,
   `PatientFName` varchar(25) NOT NULL,
   `PatientLName` varchar(25) NOT NULL,
   `PatientAddress` varchar(100) DEFAULT NULL,
   `DOB` date NOT NULL,
   `Image` longblob
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=198003 DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `patient`
+-- Dumping data for table `Patient`
 --
 
-INSERT INTO `Patient` (`PatientId`, `PatientFName`, `PatientLName`, `PatientAddress`, `DOB`, `Image`) VALUES
-(1, 'John', 'Smith', '5600 City Ave, Philadelphia, PA 19131', '1990-07-10', NULL);
+INSERT INTO `Patient` (`PatientID`, `PatientFName`, `PatientLName`, `PatientAddress`, `DOB`, `Image`) VALUES
+(198001, 'John', 'Smith', '5600 City Ave, Philadelphia, PA 19131', '1990-07-10', NULL),
+(198002, 'elizabeth', 'keen', '555 city ave Philadelphia', '1992-06-15', NULL);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `patient_phone`
+-- Table structure for table `Patient_Phone`
 --
 
-CREATE TABLE `Patient_Phone` (
+CREATE TABLE IF NOT EXISTS `Patient_Phone` (
   `Phone` char(15) NOT NULL,
   `PatientID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `patient_phone`
+-- Dumping data for table `Patient_Phone`
 --
 
 INSERT INTO `Patient_Phone` (`Phone`, `PatientID`) VALUES
-('215-111-2222', 1);
+('215-111-2222', 12345);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `seenby`
+-- Table structure for table `SeenBy`
 --
 
-CREATE TABLE `SeenBy` (
+CREATE TABLE IF NOT EXISTS `SeenBy` (
   `ApptID` int(11) NOT NULL,
   `EmpId` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `seenby`
+-- Dumping data for table `SeenBy`
 --
 
-INSERT INTO `SeenBy` (`ApptID`, `EmpID`) VALUES
-(1, 2);
+INSERT INTO `SeenBy` (`ApptID`, `EmpId`) VALUES
+(5601, 12002);
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `appointment`
+-- Indexes for table `Appointment`
 --
 ALTER TABLE `Appointment`
   ADD PRIMARY KEY (`ApptID`),
   ADD KEY `PatientID` (`PatientID`);
 
 --
--- Indexes for table `bill`
+-- Indexes for table `Bill`
 --
 ALTER TABLE `Bill`
-  ADD PRIMARY KEY (`BillID`),
-  ADD KEY `ApptID` (`ApptId`);
+  ADD PRIMARY KEY (`BillId`),
+  ADD KEY `ApptID` (`ApptID`);
 
 --
--- Indexes for table `department`
+-- Indexes for table `Department`
 --
 ALTER TABLE `Department`
-  ADD PRIMARY KEY (`DeptID`);
+  ADD PRIMARY KEY (`DeptId`);
 
 --
--- Indexes for table `employee`
+-- Indexes for table `Employee`
 --
 ALTER TABLE `Employee`
   ADD PRIMARY KEY (`EmpID`),
   ADD KEY `deptID` (`DeptID`);
 
 --
--- Indexes for table `employee_phone`
+-- Indexes for table `Employee_Phone`
 --
 ALTER TABLE `Employee_Phone`
   ADD PRIMARY KEY (`Phone`,`EmpID`),
   ADD KEY `EmpID` (`EmpID`);
 
 --
--- Indexes for table `logindetails`
+-- Indexes for table `LoginDetails`
 --
 ALTER TABLE `LoginDetails`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `PatientID` (`PatientID`),
-  ADD KEY `EmpID` (`EmpID`);
+  ADD PRIMARY KEY (`LoginID`);
 
 --
--- Indexes for table `patient`
+-- Indexes for table `Patient`
 --
 ALTER TABLE `Patient`
-  ADD PRIMARY KEY (`PatientId`);
+  ADD PRIMARY KEY (`PatientID`);
 
 --
--- Indexes for table `patient_phone`
+-- Indexes for table `Patient_Phone`
 --
 ALTER TABLE `Patient_Phone`
   ADD PRIMARY KEY (`PatientID`,`Phone`);
 
 --
--- Indexes for table `seenby`
+-- Indexes for table `SeenBy`
 --
 ALTER TABLE `SeenBy`
-  ADD PRIMARY KEY (`ApptID`,`EmpID`),
+  ADD PRIMARY KEY (`ApptID`,`EmpId`),
   ADD KEY `EmpID` (`EmpId`);
 
 --
@@ -274,77 +269,57 @@ ALTER TABLE `SeenBy`
 --
 
 --
--- AUTO_INCREMENT for table `appointment`
+-- AUTO_INCREMENT for table `Appointment`
 --
 ALTER TABLE `Appointment`
-  MODIFY `ApptID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `ApptID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5603;
 --
--- AUTO_INCREMENT for table `bill`
+-- AUTO_INCREMENT for table `Bill`
 --
 ALTER TABLE `Bill`
-  MODIFY `BillId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `BillId` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=623002;
 --
--- AUTO_INCREMENT for table `department`
+-- AUTO_INCREMENT for table `Department`
 --
 ALTER TABLE `Department`
-  MODIFY `DeptId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `DeptId` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 --
--- AUTO_INCREMENT for table `employee`
+-- AUTO_INCREMENT for table `Employee`
 --
 ALTER TABLE `Employee`
-  MODIFY `EmpID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `EmpID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=12003;
 --
--- AUTO_INCREMENT for table `patient`
+-- AUTO_INCREMENT for table `Patient`
 --
 ALTER TABLE `Patient`
-  MODIFY `PatientID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `PatientID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=198003;
 --
 -- Constraints for dumped tables
 --
 
 --
--- Constraints for table `appointment`
+-- Constraints for table `Appointment`
 --
 ALTER TABLE `Appointment`
   ADD CONSTRAINT `appointment_ibfk_1` FOREIGN KEY (`PatientID`) REFERENCES `Patient` (`PatientID`);
 
 --
--- Constraints for table `bill`
+-- Constraints for table `Bill`
 --
 ALTER TABLE `Bill`
   ADD CONSTRAINT `bill_ibfk_1` FOREIGN KEY (`ApptID`) REFERENCES `Appointment` (`ApptID`);
 
 --
--- Constraints for table `employee`
+-- Constraints for table `Employee`
 --
 ALTER TABLE `Employee`
   ADD CONSTRAINT `employee_ibfk_1` FOREIGN KEY (`DeptID`) REFERENCES `Department` (`DeptId`);
 
 --
--- Constraints for table `employee_phone`
+-- Constraints for table `Employee_Phone`
 --
 ALTER TABLE `Employee_Phone`
   ADD CONSTRAINT `employee_phone_ibfk_1` FOREIGN KEY (`EmpID`) REFERENCES `Employee` (`EmpID`);
-
---
--- Constraints for table `logindetails`
---
-ALTER TABLE `LoginDetails`
-  ADD CONSTRAINT `logindetails_ibfk_1` FOREIGN KEY (`PatientID`) REFERENCES `Patient` (`PatientID`),
-  ADD CONSTRAINT `logindetails_ibfk_2` FOREIGN KEY (`EmpID`) REFERENCES `Employee` (`EmpID`);
-
---
--- Constraints for table `patient_phone`
---
-ALTER TABLE `Patient_Phone`
-  ADD CONSTRAINT `patient_phone_ibfk_1` FOREIGN KEY (`PatientID`) REFERENCES `Patient` (`PatientID`);
-
---
--- Constraints for table `seenby`
---
-ALTER TABLE `SeenBy`
-  ADD CONSTRAINT `seenby_ibfk_1` FOREIGN KEY (`EmpID`) REFERENCES `Employee` (`EmpID`),
-  ADD CONSTRAINT `seenby_ibfk_2` FOREIGN KEY (`ApptID`) REFERENCES `Appointment` (`ApptID`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
