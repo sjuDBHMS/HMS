@@ -132,7 +132,7 @@ INSERT INTO `Employee_Phone` (`Phone`, `EmpID`) VALUES
 --
 
 CREATE TABLE `LoginDetails` (
-  `ID` varchar(30) NOT NULL,
+  `ID` int(10) NOT NULL,
   `Password` varchar(100) NOT NULL,
   `Type` int(10) NOT NULL,
   `PatientID` varchar(50) DEFAULT NULL,
@@ -153,7 +153,7 @@ INSERT INTO `LoginDetails` (`ID`, `Password`, `Type`, `PatientID`, `EmpID`) VALU
 --
 
 CREATE TABLE `Patient` (
-  `PatientID` varchar(50) NOT NULL,
+  `PatientID` int(11) NOT NULL,
   `PatientFName` varchar(25) NOT NULL,
   `PatientLName` varchar(25) NOT NULL,
   `PatientAddress` varchar(100) DEFAULT NULL,
@@ -176,7 +176,7 @@ INSERT INTO `Patient` (`PatientId`, `PatientFName`, `PatientLName`, `PatientAddr
 
 CREATE TABLE `Patient_Phone` (
   `Phone` char(15) NOT NULL,
-  `PatientID` varchar(50) NOT NULL
+  `PatientID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
