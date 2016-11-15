@@ -89,7 +89,7 @@ INSERT INTO `Department` (`DeptID`, `DeptName`) VALUES
 --
 
 CREATE TABLE `Employee` (
-  `EmpID` varchar(50) NOT NULL,
+  `EmpID` int(10) NOT NULL,
   `EmpFName` varchar(40) NOT NULL,
   `EmpLName` varchar(40) NOT NULL,
   `StartDate` date NOT NULL,
@@ -115,7 +115,7 @@ INSERT INTO `Employee` (`EmpID`, `EmpFName`, `EmpLName`, `StartDate`, `EndDate`,
 
 CREATE TABLE `Employee_Phone` (
   `Phone` varchar(15) NOT NULL,
-  `EmpID` varchar(50) NOT NULL
+  `EmpID` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -136,7 +136,7 @@ CREATE TABLE `LoginDetails` (
   `Password` varchar(100) NOT NULL,
   `Type` int(10) NOT NULL,
   `PatientID` varchar(50) DEFAULT NULL,
-  `EmpID` varchar(50) DEFAULT NULL
+  `EmpID` int(10) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -194,7 +194,7 @@ INSERT INTO `Patient_Phone` (`Phone`, `PatientID`) VALUES
 
 CREATE TABLE `SeenBy` (
   `ApptID` int(11) NOT NULL,
-  `EmpId` varchar(50) NOT NULL
+  `EmpId` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
