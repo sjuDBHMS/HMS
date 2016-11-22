@@ -1,4 +1,6 @@
 <?php
+include_once '../dbconnect.php';
+
 if(!isset($_SESSION['receptionist']))
 {
 	header("Location: ../login/index.php");
@@ -13,7 +15,10 @@ if(!isset($_SESSION['receptionist']))
 
 <div id="resHeader">
 	<div id="left">
-    <label>Login</label>
+	<span ><a style="text-decoration:none; color:white;" href="patientSearch.php">Patient Search - </a></span>
+    <span ><a style="text-decoration:none; color:white;" href="editProfile.php">Edit Profile - </a></span>
+    <span ><a style="text-decoration:none; color:white;" href="newApp.php">New Appointment - </a></span>
+    <span ><a style="text-decoration:none; color:white;" href="appSearch.php">Appointment Search - </a></span>
     </div>
     <div id="right">
     	<div id="content">
