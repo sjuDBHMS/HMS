@@ -71,7 +71,6 @@ function selectPatient() {
 	//To check if the data already exist
 	$seenByquery="SELECT * from SeenBy where ApptID=$ApptID and EmpId=$doctorID";
 	$result = mysql_query($seenByquery);
-	echo mysql_num_rows($result);
 	if(mysql_num_rows($result)==0)
 	{
 		$query='INSERT INTO SeenBy(ApptID, EmpId) VALUES ('.$ApptID.','.$doctorID.')';
