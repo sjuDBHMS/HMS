@@ -6,6 +6,23 @@ if(!isset($_SESSION['doctor']))
 }
 if (isset($_GET['selectPatientID'])) {
     selectPatient();
+    unset($_GET['selectPatientID']);
+    header("Location: doctor.php");
+}
+if (isset($_REQUEST['updateComment'])) {
+    updateComment();
+    unset($_REQUEST['updateComment']);
+    header("Location: doctor.php");
+}
+if (isset($_REQUEST['updateStatus'])) {
+    updateStatus();
+    unset($_REQUEST['updateStatus']);
+    header("Location: doctor.php");
+}
+if (isset($_GET['cancelApptID'])) {
+    cancelApptID();
+    unset($_GET['cancelApptID']);
+    header("Location: doctor.php");
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -65,9 +82,9 @@ width:80%;
 function selectPatient() {
 	$doctorID=$_SESSION['doctor'];
 	$patientID=$_GET['selectPatientID'];
-	$query="UPDATE Appointment SET ApptStatus=$doctorID WHERE PatientID=$patientID";
-	$result = mysql_query($query);
 	$ApptID= $_GET['appointmentID'];
+	$query="UPDATE Appointment SET ApptStatus=$doctorID WHERE ApptID=$ApptID";
+	$result = mysql_query($query);
 	//To check if the data already exist
 	$seenByquery="SELECT * from SeenBy where ApptID=$ApptID and EmpId=$doctorID";
 	$result = mysql_query($seenByquery);
@@ -76,17 +93,56 @@ function selectPatient() {
 		$query='INSERT INTO SeenBy(ApptID, EmpId) VALUES ('.$ApptID.','.$doctorID.')';
 		$retval=mysql_query($query);
 	}
+	$seenByquery="SELECT * from Bill where ApptID=$ApptID ";
+	$result = mysql_query($seenByquery);
+	$row = mysql_fetch_array($result);
+	if(mysql_num_rows($result)==0)
+	{
+		$query='INSERT INTO Bill( PendingAmount, TotalAmount, Paid, ApptID) VALUES ( 30, 30, 0, '.$ApptID.')';
+		$retval=mysql_query($query);
+	}else{
+		$BillId=$row['BillId'];
+		$TotalAmount=$row['TotalAmount']+30;
+		$PendingAmount= $row['PendingAmount']+30;
+		$query="UPDATE Bill SET PendingAmount= '$PendingAmount', TotalAmount= '$TotalAmount' WHERE BillId= '$BillId' " ;
+		echo $query;
+		mysql_query($query);
+	}
+	
   }
-
   
+function updateComment()
+{
+	$newComment= $_REQUEST['comment'];
+	$ApptID=  $_REQUEST['ApptID'];
+	$query="UPDATE Appointment SET Comments='$newComment' WHERE ApptID='$ApptID'";
+	mysql_query($query);
+}
+
+function updateStatus()
+{
+	if($_REQUEST['status']=='close'){
+		$ApptID=  $_REQUEST['ApptID'];
+		$query="UPDATE Appointment SET ApptStatus='closed' WHERE ApptID=$ApptID";
+		$result = mysql_query($query);	
+	}
+	if($_REQUST['status']=='reschedule'){
+	
+	}
+}
+function cancelApptID()
+{
+	
+	$ApptID= $_GET['cancelApptID'];
+	$query="UPDATE Appointment SET ApptStatus=NULL WHERE ApptID=$ApptID";
+	$result = mysql_query($query);
+}
 ?>
-
-
 <body>
-
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<!-- Select patients -->
 <div class="listHeadign" ><h2>Waiting List</h2></div>
 <div class="wrapper">
-
 <?php 
 $doctorID=$_SESSION['doctor'];
 $apptQuery="SELECT * FROM Appointment where DATE(AppDate) = CURDATE() and (ApptStatus is null)";
@@ -131,6 +187,8 @@ echo "No appointments found"
 ?>
 </div>
 
+
+<!-- Selected patients -->
 <div class="listHeadign" ><h2>Selected Patients</h2></div>
 <div class="wrapper">
 <?php 
@@ -168,16 +226,31 @@ if(mysql_num_rows($apptResult)>0)
         	echo '<td>' . $patientDetails['PatientFName'] . '</td>';
         	echo '<td>' . $patientDetails['PatientLName'] . '</td>';
         	echo '<td>' . $age . '</td>';
-        	?><td>
-        	<select name="formGender">
-			  	<option value="">Select...</option>
-			  	<option value="M">Close</option>
-				<option value="F">Reschedule to</option>
-			</select>
+        	?>
+        	<td>
+        	<br><br>
+        	<form method="post" action="doctor.php">
+        	<input type="hidden" name="ApptID" value= <?php echo $row['ApptID']; ?> >
+				<select name="status" >
+					<option value="select">--Select--</option>
+					<option value="close">Close</option>
+					<option value="reschedule">Reschedule</option>
+				</select><br>
+			<input type="submit" name="updateStatus" value="Submit" >
+			</form>
 			</td>
+        	<td>
+	        	<form method="post" action="doctor.php">
+	        		<textarea rows="4" cols="25" name="comment"><?php echo $row['Comments']; ?></textarea>
+	        		<input type="hidden" name="ApptID" value= <?php echo $row['ApptID']; ?> >
+	        		<input type="submit" value= "Update" style="width: 30%;" name="updateComment" />
+				</form>
+        	
+        	</td>
+        	<td>
+        		<a href="doctor.php?cancelApptID=<?php echo $row['ApptID'] ?>">undo select</a>
+        	</td>
         	<?php
-        	echo '<td><input type="text" name="nato_pf" /></td>';
-        	echo '<td> <a href=doctor.php?selectPatientID='.$patientID.'>Select</a> </td>';
 			echo '</tr>';
 		}
 	?>
@@ -187,4 +260,6 @@ if(mysql_num_rows($apptResult)>0)
 echo "No Patient Selected"
 ?>
 </div>
+
+
 </body>
