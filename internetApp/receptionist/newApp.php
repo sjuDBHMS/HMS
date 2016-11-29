@@ -1,6 +1,7 @@
 <?php
 include_once 'receptionistHeader.php';
 $res = $_SESSION['receptionist'];
+$newApp = $_REQUEST['newApp'];
 ?>
 <style>
 	#form {
@@ -50,7 +51,7 @@ $res = $_SESSION['receptionist'];
 		<div id="form">
 		<form method="post">
 		<label>Patient ID:</label>
-		<input type="number" name="pid"></br>
+		<input type="number" name="pid" value="<?php  echo $newApp; ?>"></br>
 		<label>Appointment Date:</label>
 		<input type="date" name="date"></br>
 		<label>Appointment Time:</label>

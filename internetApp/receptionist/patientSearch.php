@@ -2,8 +2,8 @@
 include_once 'receptionistHeader.php';
 $res = $_SESSION['receptionist'];
 ?>
-
 <body>
+	<div align="center">
 	  <form method="post">
 	  <label>Search by patient ID, name or date of birth:</label></br>
 	  <input type="text" name="pid" placeholder="Patient ID">
@@ -23,6 +23,7 @@ $res = $_SESSION['receptionist'];
   <?php
 	  if (isset($_REQUEST['deletePatient'])){
 		$pid = $_REQUEST['deletePatient'];
+/*
 
 		$appDeleteQuery = "DELETE FROM Appointment WHERE PatientID='$pid'";
 		mysql_query($appDeleteQuery);
@@ -32,6 +33,7 @@ $res = $_SESSION['receptionist'];
 			  
 		$loginDeleteQuery = "DELETE FROM LoginDetails WHERE ID='$pid'";
 		mysql_query($loginDeleteQuery);
+*/
 	  
 		$deleteQuery = "DELETE FROM Patient WHERE PatientID='$pid'";
 		mysql_query($deleteQuery);
@@ -55,6 +57,7 @@ $res = $_SESSION['receptionist'];
 			$results = mysql_query($query);
     	
 	    ?>
+	    </br>
 	  <table border="1">
 	  <tr>
 	    <th>PatientID</th>
@@ -64,6 +67,7 @@ $res = $_SESSION['receptionist'];
 	    <th>Birth of date</th>
 	    <th>Edit</th>
 	    <th>Delete</th>
+	    <th>New Appointment</th>
 	  </tr>
 	  <?php
 
@@ -76,7 +80,8 @@ $res = $_SESSION['receptionist'];
         	echo '<td>' . $row['PatientAddress'] . '</td>';
         	echo '<td>' . $row['DOB'] . '</td>';
         	echo '<td><a href="editPatientProfile.php?id=' . $row['PatientID'] . '">Edit</a></td>';
-        	echo '<td><a href="patientSearch.php?deletePatient=' . $row['PatientID'] . '">Delete</a></td>';
+        	echo '<td><a href="ApppatientSearch.php?deletePatient=' . $row['PatientID'] . '">Delete</a></td>';
+        	echo '<td><a href="newApp.php?newApp=' . $row['PatientID'] . '">New</a></td>';
 			echo '</tr>';
 		//}
 		}}
@@ -97,6 +102,7 @@ and (select DOB from Patient where DOB like '%$dateTo%' limit 1)";
 			echo($res);
     	
 	    ?>
+	  </br>
 	  <table border="1">
 	  <tr>
 	    <th>PatientID</th>
@@ -123,6 +129,6 @@ and (select DOB from Patient where DOB like '%$dateTo%' limit 1)";
 		}}
 	?>
 	</table>
-	
+	</div
 </body>
 </html>

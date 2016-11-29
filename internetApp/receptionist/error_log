@@ -1,0 +1,642 @@
+[19-Nov-2016 00:07:10 UTC] PHP Parse error:  syntax error, unexpected '$row_sql' (T_VARIABLE) in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 17:09:59 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 12
+[19-Nov-2016 17:10:50 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 12
+[19-Nov-2016 17:11:40 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 12
+[19-Nov-2016 17:11:46 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 12
+[19-Nov-2016 17:12:19 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 12
+[19-Nov-2016 17:12:29 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 12
+[19-Nov-2016 17:12:39 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 17:13:01 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 12
+[19-Nov-2016 17:13:39 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 11
+[19-Nov-2016 17:13:42 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 11
+[19-Nov-2016 17:14:55 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 12
+[19-Nov-2016 17:14:57 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 12
+[19-Nov-2016 17:15:38 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 12
+[19-Nov-2016 17:16:43 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 14
+[19-Nov-2016 17:16:45 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 14
+[19-Nov-2016 17:16:50 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 14
+[19-Nov-2016 17:16:57 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 28
+[19-Nov-2016 17:17:00 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 28
+[19-Nov-2016 17:17:36 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 12
+[19-Nov-2016 17:17:49 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 12
+[19-Nov-2016 17:17:57 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 14
+[19-Nov-2016 17:18:07 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 14
+[19-Nov-2016 17:18:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 31
+[19-Nov-2016 17:19:28 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 12
+[19-Nov-2016 17:19:56 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 14
+[19-Nov-2016 17:20:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 44
+[19-Nov-2016 17:20:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 44
+[19-Nov-2016 17:20:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 44
+[19-Nov-2016 17:21:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 44
+[19-Nov-2016 17:21:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 44
+[19-Nov-2016 17:29:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 44
+[19-Nov-2016 17:31:51 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 21
+[19-Nov-2016 17:35:02 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 21
+[19-Nov-2016 17:35:08 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 21
+[19-Nov-2016 17:35:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 21
+[19-Nov-2016 17:35:42 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 21
+[19-Nov-2016 17:44:10 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 16
+[19-Nov-2016 17:44:10 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 17:44:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 19
+[19-Nov-2016 17:44:10 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 34
+[19-Nov-2016 17:45:44 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 16
+[19-Nov-2016 17:45:44 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 17:45:44 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 19
+[19-Nov-2016 17:45:44 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 34
+[19-Nov-2016 17:46:07 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 16
+[19-Nov-2016 17:46:07 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 17:46:07 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 19
+[19-Nov-2016 17:46:07 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 34
+[19-Nov-2016 17:47:35 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 16
+[19-Nov-2016 17:47:35 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 17:47:35 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 19
+[19-Nov-2016 17:47:35 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 35
+[19-Nov-2016 17:48:08 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 16
+[19-Nov-2016 17:48:08 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 17:48:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 19
+[19-Nov-2016 17:48:08 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 35
+[19-Nov-2016 17:49:24 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 16
+[19-Nov-2016 17:49:24 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 17:49:24 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 19
+[19-Nov-2016 17:49:24 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 29
+[19-Nov-2016 17:51:15 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 16
+[19-Nov-2016 17:51:15 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 17:51:15 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 19
+[19-Nov-2016 17:51:31 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 16
+[19-Nov-2016 17:51:31 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 17:51:31 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 19
+[19-Nov-2016 17:52:00 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 16
+[19-Nov-2016 17:52:00 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 17:52:00 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 19
+[19-Nov-2016 17:53:56 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 16
+[19-Nov-2016 17:53:56 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 17:53:56 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 19
+[19-Nov-2016 17:55:45 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 16
+[19-Nov-2016 17:55:45 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 17:55:45 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 19
+[19-Nov-2016 17:56:41 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 16
+[19-Nov-2016 17:56:41 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 17:56:41 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 19
+[19-Nov-2016 17:59:27 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 17:59:27 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 17:59:27 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:00:01 UTC] PHP Parse error:  syntax error, unexpected 'color' (T_STRING), expecting ',' or ';' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 23
+[19-Nov-2016 18:01:19 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:01:19 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:01:19 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:01:26 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:01:26 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:01:26 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:01:32 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:01:32 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:01:32 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:01:49 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:01:49 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:01:49 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:01:54 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:01:54 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:01:54 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:02:01 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:02:01 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:02:01 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:02:08 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:02:08 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:02:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:02:42 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:02:42 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:02:42 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:02:51 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:02:51 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:02:51 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:02:58 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:02:58 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:02:58 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:04:03 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:04:03 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:04:03 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:05:06 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:05:06 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:05:06 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:05:10 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:05:10 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:05:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:07:22 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:07:22 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:07:22 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:07:33 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:07:33 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:07:33 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:07:34 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:07:34 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:07:34 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:20:07 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 49
+[19-Nov-2016 18:21:47 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:21:47 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:21:47 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:21:58 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 17
+[19-Nov-2016 18:21:58 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 18
+[19-Nov-2016 18:21:58 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 20
+[19-Nov-2016 18:31:00 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 24
+[19-Nov-2016 18:31:00 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 25
+[19-Nov-2016 18:31:00 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 27
+[19-Nov-2016 18:32:59 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 23
+[19-Nov-2016 18:32:59 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 24
+[19-Nov-2016 18:32:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 26
+[19-Nov-2016 18:33:04 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 23
+[19-Nov-2016 18:33:04 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 24
+[19-Nov-2016 18:33:04 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 26
+[19-Nov-2016 18:36:34 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 23
+[19-Nov-2016 18:36:34 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 24
+[19-Nov-2016 18:36:34 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 26
+[19-Nov-2016 18:36:52 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 23
+[19-Nov-2016 18:36:52 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 24
+[19-Nov-2016 18:36:52 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 26
+[19-Nov-2016 18:37:09 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 23
+[19-Nov-2016 18:37:09 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 24
+[19-Nov-2016 18:37:09 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 26
+[19-Nov-2016 18:37:19 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 23
+[19-Nov-2016 18:37:19 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 24
+[19-Nov-2016 18:37:19 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 26
+[19-Nov-2016 18:37:42 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 23
+[19-Nov-2016 18:37:42 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 24
+[19-Nov-2016 18:37:42 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 26
+[19-Nov-2016 19:32:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/malamodi/public_html/internetApp/receptionist/search.php on line 35
+[20-Nov-2016 06:37:13 UTC] PHP Fatal error:  Call to undefined function getParameter() in /home/malamodi/public_html/internetApp/receptionist/search.php on line 39
+[20-Nov-2016 06:37:15 UTC] PHP Fatal error:  Call to undefined function getParameter() in /home/malamodi/public_html/internetApp/receptionist/search.php on line 39
+[20-Nov-2016 06:37:28 UTC] PHP Fatal error:  Call to undefined function getParameter() in /home/malamodi/public_html/internetApp/receptionist/search.php on line 39
+[20-Nov-2016 06:38:04 UTC] PHP Fatal error:  Call to undefined function getParameter() in /home/malamodi/public_html/internetApp/receptionist/search.php on line 28
+[20-Nov-2016 06:38:06 UTC] PHP Fatal error:  Call to undefined function getParameter() in /home/malamodi/public_html/internetApp/receptionist/search.php on line 28
+[20-Nov-2016 06:39:58 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/malamodi/public_html/internetApp/receptionist/search.php on line 39
+[20-Nov-2016 06:40:08 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/malamodi/public_html/internetApp/receptionist/search.php on line 39
+[20-Nov-2016 07:00:26 UTC] PHP Parse error:  syntax error, unexpected 'edit' (T_STRING) in /home/malamodi/public_html/internetApp/receptionist/search.php on line 26
+[20-Nov-2016 07:00:59 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/malamodi/public_html/internetApp/receptionist/search.php on line 26
+[20-Nov-2016 07:01:14 UTC] PHP Warning:  Illegal string offset 'name' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 26
+[20-Nov-2016 07:01:16 UTC] PHP Warning:  Illegal string offset 'name' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 26
+[20-Nov-2016 07:01:24 UTC] PHP Warning:  Illegal string offset 'name' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 26
+[20-Nov-2016 07:01:27 UTC] PHP Warning:  Illegal string offset 'name' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 26
+[20-Nov-2016 07:01:28 UTC] PHP Warning:  Illegal string offset 'name' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 26
+[20-Nov-2016 07:01:40 UTC] PHP Warning:  Illegal string offset 'id' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 26
+[20-Nov-2016 07:01:45 UTC] PHP Warning:  Illegal string offset 'id' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 26
+[20-Nov-2016 07:02:03 UTC] PHP Warning:  Illegal string offset 'src' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 26
+[20-Nov-2016 07:02:07 UTC] PHP Warning:  Illegal string offset 'src' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 26
+[20-Nov-2016 07:02:12 UTC] PHP Warning:  Illegal string offset 'src' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 26
+[20-Nov-2016 07:05:13 UTC] PHP Warning:  Illegal string offset 'src' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 33
+[20-Nov-2016 07:05:14 UTC] PHP Warning:  Illegal string offset 'src' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 33
+[20-Nov-2016 07:05:16 UTC] PHP Warning:  Illegal string offset 'src' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 33
+[20-Nov-2016 07:05:46 UTC] PHP Warning:  Illegal string offset 'src' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 33
+[20-Nov-2016 07:05:50 UTC] PHP Warning:  Illegal string offset 'src' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 33
+[20-Nov-2016 07:05:52 UTC] PHP Warning:  Illegal string offset 'src' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 33
+[20-Nov-2016 07:05:53 UTC] PHP Warning:  Illegal string offset 'src' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 33
+[20-Nov-2016 07:06:37 UTC] PHP Warning:  Illegal string offset 'src' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 33
+[20-Nov-2016 07:10:53 UTC] PHP Parse error:  syntax error, unexpected 'PatientID' (T_STRING) in /home/malamodi/public_html/internetApp/receptionist/search.php on line 46
+[20-Nov-2016 07:12:50 UTC] PHP Parse error:  syntax error, unexpected 'myBtn' (T_STRING), expecting ',' or ';' in /home/malamodi/public_html/internetApp/receptionist/search.php on line 47
+[20-Nov-2016 16:33:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/malamodi/public_html/internetApp/receptionist/search.php on line 55
+[20-Nov-2016 16:45:00 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/malamodi/public_html/internetApp/receptionist/search.php on line 31
+[20-Nov-2016 16:53:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/malamodi/public_html/internetApp/receptionist/search.php on line 63
+[20-Nov-2016 17:07:45 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/search.php on line 48
+[20-Nov-2016 17:07:59 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/search.php on line 48
+[20-Nov-2016 17:08:03 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/search.php on line 48
+[20-Nov-2016 17:35:17 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/search.php on line 98
+[20-Nov-2016 17:35:39 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/search.php on line 98
+[20-Nov-2016 17:35:58 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/search.php on line 98
+[20-Nov-2016 17:43:43 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/search.php on line 98
+[20-Nov-2016 17:44:01 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/search.php on line 98
+[20-Nov-2016 17:46:30 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/search.php on line 97
+[21-Nov-2016 01:42:55 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[21-Nov-2016 01:42:55 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[21-Nov-2016 01:42:55 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[21-Nov-2016 01:46:20 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[21-Nov-2016 01:46:20 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[21-Nov-2016 01:46:20 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[21-Nov-2016 01:46:28 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[21-Nov-2016 01:46:28 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[21-Nov-2016 01:46:28 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[21-Nov-2016 01:51:57 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[21-Nov-2016 01:51:57 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[21-Nov-2016 01:51:57 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[21-Nov-2016 01:52:05 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[21-Nov-2016 01:52:05 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[21-Nov-2016 01:52:05 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[21-Nov-2016 01:52:53 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[21-Nov-2016 01:52:53 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[21-Nov-2016 01:52:53 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[21-Nov-2016 01:55:18 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[21-Nov-2016 01:55:18 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[21-Nov-2016 01:55:18 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[21-Nov-2016 01:56:55 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[21-Nov-2016 01:56:55 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[21-Nov-2016 01:56:55 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[21-Nov-2016 01:57:06 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[21-Nov-2016 01:57:06 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[21-Nov-2016 01:57:06 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[21-Nov-2016 01:57:25 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[21-Nov-2016 01:57:25 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[21-Nov-2016 01:57:25 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[21-Nov-2016 01:57:31 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[21-Nov-2016 01:57:31 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[21-Nov-2016 01:57:31 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[21-Nov-2016 01:57:50 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[21-Nov-2016 01:57:50 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[21-Nov-2016 01:57:50 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[21-Nov-2016 01:57:57 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[21-Nov-2016 01:57:57 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[21-Nov-2016 01:57:57 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[21-Nov-2016 16:20:58 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 48
+[21-Nov-2016 16:20:58 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 49
+[21-Nov-2016 16:21:24 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 48
+[21-Nov-2016 16:21:24 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 49
+[21-Nov-2016 16:21:39 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 48
+[21-Nov-2016 16:21:39 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 49
+[21-Nov-2016 16:21:48 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 48
+[21-Nov-2016 16:21:48 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 49
+[21-Nov-2016 17:39:29 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 34
+[21-Nov-2016 17:39:35 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 34
+[21-Nov-2016 17:39:44 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 34
+[21-Nov-2016 17:41:30 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 34
+[21-Nov-2016 17:43:56 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 34
+[21-Nov-2016 17:44:16 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 38
+[21-Nov-2016 17:45:13 UTC] PHP Parse error:  syntax error, unexpected 'mysql_error' (T_STRING) in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 40
+[21-Nov-2016 17:45:58 UTC] PHP Parse error:  syntax error, unexpected 'mysql_error' (T_STRING) in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 40
+[21-Nov-2016 17:46:01 UTC] PHP Parse error:  syntax error, unexpected 'mysql_error' (T_STRING) in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 40
+[21-Nov-2016 17:50:25 UTC] PHP Parse error:  syntax error, unexpected 'color' (T_STRING) in /home/malamodi/public_html/internetApp/receptionist/newApp.php on line 40
+[21-Nov-2016 18:08:06 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/appSearch.php on line 98
+[21-Nov-2016 18:08:48 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/appSearch.php on line 98
+[21-Nov-2016 18:09:00 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/appSearch.php on line 98
+[21-Nov-2016 22:29:31 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/appSearch.php on line 65
+[21-Nov-2016 22:29:42 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/appSearch.php on line 65
+[21-Nov-2016 22:30:02 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/appSearch.php on line 66
+[21-Nov-2016 22:30:25 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/appSearch.php on line 66
+[21-Nov-2016 22:30:41 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/appSearch.php on line 66
+[21-Nov-2016 22:32:01 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/appSearch.php on line 65
+[21-Nov-2016 22:32:05 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/appSearch.php on line 65
+[21-Nov-2016 22:32:20 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/appSearch.php on line 65
+[21-Nov-2016 22:35:10 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/appSearch.php on line 65
+[21-Nov-2016 22:38:52 UTC] PHP Parse error:  syntax error, unexpected 'SELECT' (T_STRING) in /home/malamodi/public_html/internetApp/receptionist/appSearch.php on line 47
+[21-Nov-2016 22:39:51 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/appSearch.php on line 70
+[21-Nov-2016 22:39:59 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/appSearch.php on line 70
+[21-Nov-2016 22:44:44 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[21-Nov-2016 22:44:44 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[21-Nov-2016 22:44:44 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[21-Nov-2016 22:47:16 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[21-Nov-2016 22:47:16 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[21-Nov-2016 22:47:16 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[28-Nov-2016 03:13:58 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 61
+[28-Nov-2016 03:14:19 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 61
+[28-Nov-2016 03:14:28 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:14:28 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:14:28 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:14:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 61
+[28-Nov-2016 03:14:41 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:14:41 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:14:41 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:14:42 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 61
+[28-Nov-2016 03:16:15 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:16:15 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:16:15 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:16:15 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 61
+[28-Nov-2016 03:17:03 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:17:03 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:17:03 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:17:03 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 61
+[28-Nov-2016 03:17:32 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:17:32 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:17:32 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:17:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 61
+[28-Nov-2016 03:18:26 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:18:26 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:18:26 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:18:26 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 61
+[28-Nov-2016 03:19:17 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:19:17 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:19:17 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:27:28 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:27:28 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:27:28 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:27:33 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:27:33 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:27:33 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:27:37 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:27:37 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:27:37 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:28:35 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[28-Nov-2016 03:28:35 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:28:35 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[28-Nov-2016 03:28:47 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[28-Nov-2016 03:28:47 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:28:47 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[28-Nov-2016 03:29:02 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[28-Nov-2016 03:29:02 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:29:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[28-Nov-2016 03:29:05 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[28-Nov-2016 03:29:05 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:29:05 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[28-Nov-2016 03:29:22 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[28-Nov-2016 03:29:22 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:29:22 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[28-Nov-2016 03:29:26 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[28-Nov-2016 03:29:26 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:29:26 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[28-Nov-2016 03:29:30 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[28-Nov-2016 03:29:30 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:29:30 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[28-Nov-2016 03:30:10 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[28-Nov-2016 03:30:10 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:30:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[28-Nov-2016 03:30:15 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[28-Nov-2016 03:30:15 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:30:15 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[28-Nov-2016 03:30:20 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[28-Nov-2016 03:30:20 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:30:20 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[28-Nov-2016 03:30:52 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:30:52 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:30:52 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:30:56 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:30:56 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:30:56 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:31:00 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:31:00 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:31:00 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:31:15 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:31:15 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:31:15 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:31:20 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:31:20 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:31:20 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:32:58 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:32:58 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:32:58 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[28-Nov-2016 03:33:36 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:33:36 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:33:36 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[28-Nov-2016 03:33:59 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:33:59 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:33:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:39:44 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:39:44 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:39:44 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:39:49 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:39:49 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:39:49 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:39:54 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[28-Nov-2016 03:39:54 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[28-Nov-2016 03:39:54 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[28-Nov-2016 03:48:07 UTC] PHP Parse error:  syntax error, unexpected 'base64_encode' (T_STRING), expecting ',' or ';' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 71
+[28-Nov-2016 03:48:19 UTC] PHP Parse error:  syntax error, unexpected 'base64_encode' (T_STRING), expecting ',' or ';' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 71
+[28-Nov-2016 03:48:38 UTC] PHP Parse error:  syntax error, unexpected 'base64_encode' (T_STRING), expecting ',' or ';' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 71
+[28-Nov-2016 03:50:59 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 79
+[28-Nov-2016 03:52:02 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 79
+[28-Nov-2016 03:52:36 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 79
+[28-Nov-2016 03:52:39 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 79
+[28-Nov-2016 03:52:59 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 79
+[28-Nov-2016 03:54:02 UTC] PHP Parse error:  syntax error, unexpected 'center' (T_STRING), expecting ',' or ';' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 71
+[29-Nov-2016 04:12:12 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 24
+[29-Nov-2016 04:12:12 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 25
+[29-Nov-2016 04:12:12 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editProfile.php on line 27
+[29-Nov-2016 04:13:36 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:13:36 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[29-Nov-2016 04:13:36 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:16:04 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:16:04 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[29-Nov-2016 04:16:04 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:16:10 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:16:10 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[29-Nov-2016 04:16:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:16:41 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:16:41 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[29-Nov-2016 04:16:41 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:16:47 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:16:47 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[29-Nov-2016 04:16:47 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:17:25 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:17:25 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[29-Nov-2016 04:17:25 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:17:30 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:17:30 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[29-Nov-2016 04:17:30 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:21:02 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:21:02 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[29-Nov-2016 04:21:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:24:36 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:24:36 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[29-Nov-2016 04:24:36 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:24:36 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:26:39 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:26:39 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[29-Nov-2016 04:26:39 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:26:39 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:27:14 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:27:14 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[29-Nov-2016 04:27:14 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:27:14 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:29:34 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:29:34 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[29-Nov-2016 04:29:34 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:29:34 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:29:47 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:29:47 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[29-Nov-2016 04:29:47 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:29:47 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:35:19 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:35:19 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[29-Nov-2016 04:35:19 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:35:19 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:35:19 UTC] PHP Fatal error:  Call to undefined function upload() in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 33
+[29-Nov-2016 04:35:46 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:35:46 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[29-Nov-2016 04:35:46 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:35:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:35:46 UTC] PHP Fatal error:  Call to undefined function upload() in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 33
+[29-Nov-2016 04:36:01 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:36:01 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[29-Nov-2016 04:36:01 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:36:01 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:36:41 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 40
+[29-Nov-2016 04:36:41 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 43
+[29-Nov-2016 04:36:41 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 44
+[29-Nov-2016 04:36:41 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 46
+[29-Nov-2016 04:36:48 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 40
+[29-Nov-2016 04:36:48 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 43
+[29-Nov-2016 04:36:48 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 44
+[29-Nov-2016 04:36:48 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 46
+[29-Nov-2016 04:37:39 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 39
+[29-Nov-2016 04:37:39 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 42
+[29-Nov-2016 04:37:39 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 43
+[29-Nov-2016 04:37:39 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 45
+[29-Nov-2016 04:37:45 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 39
+[29-Nov-2016 04:37:45 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 42
+[29-Nov-2016 04:37:45 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 43
+[29-Nov-2016 04:37:45 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 45
+[29-Nov-2016 04:38:09 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 39
+[29-Nov-2016 04:38:09 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 42
+[29-Nov-2016 04:38:09 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 43
+[29-Nov-2016 04:38:09 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 45
+[29-Nov-2016 04:38:15 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 39
+[29-Nov-2016 04:38:15 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 42
+[29-Nov-2016 04:38:15 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 43
+[29-Nov-2016 04:38:15 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 45
+[29-Nov-2016 04:39:02 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:39:02 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[29-Nov-2016 04:39:02 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:39:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:39:10 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:39:10 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 27
+[29-Nov-2016 04:39:10 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:39:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:43:46 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:43:46 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:43:46 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[29-Nov-2016 04:43:46 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:43:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 32
+[29-Nov-2016 04:44:00 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:44:00 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:44:00 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[29-Nov-2016 04:44:00 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:44:00 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 32
+[29-Nov-2016 04:45:17 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:45:17 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:45:17 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[29-Nov-2016 04:45:17 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:45:17 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 32
+[29-Nov-2016 04:45:21 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:45:21 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:45:21 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[29-Nov-2016 04:45:21 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:45:21 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 32
+[29-Nov-2016 04:47:21 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:47:21 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:47:21 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[29-Nov-2016 04:47:21 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:47:21 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 32
+[29-Nov-2016 04:47:26 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:47:26 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:47:26 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[29-Nov-2016 04:47:26 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:47:26 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 32
+[29-Nov-2016 04:47:32 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:47:32 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:47:32 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 29
+[29-Nov-2016 04:47:32 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:47:32 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 32
+[29-Nov-2016 04:48:44 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:48:44 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:48:44 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[29-Nov-2016 04:48:44 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:48:44 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 04:48:44 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 33
+[29-Nov-2016 04:49:22 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:49:22 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:49:22 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[29-Nov-2016 04:49:22 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:49:22 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 04:49:22 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 33
+[29-Nov-2016 04:49:27 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:49:27 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:49:27 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[29-Nov-2016 04:49:27 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:49:27 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 04:49:27 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 33
+[29-Nov-2016 04:49:37 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:49:37 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:49:37 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[29-Nov-2016 04:49:37 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:49:37 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 04:49:37 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 33
+[29-Nov-2016 04:50:30 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:50:30 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:50:30 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[29-Nov-2016 04:50:30 UTC] PHP Fatal error:  Call to undefined function saveimage() in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 28
+[29-Nov-2016 04:50:46 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 24
+[29-Nov-2016 04:50:46 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 25
+[29-Nov-2016 04:50:46 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 26
+[29-Nov-2016 04:50:46 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 04:50:46 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 32
+[29-Nov-2016 04:50:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 34
+[29-Nov-2016 04:53:18 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 23
+[29-Nov-2016 04:53:18 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 35
+[29-Nov-2016 04:53:18 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 36
+[29-Nov-2016 04:53:18 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 38
+[29-Nov-2016 04:53:25 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 23
+[29-Nov-2016 04:53:25 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 35
+[29-Nov-2016 04:53:25 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 36
+[29-Nov-2016 04:53:25 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 38
+[29-Nov-2016 04:54:26 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 23
+[29-Nov-2016 04:54:26 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 35
+[29-Nov-2016 04:54:26 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 36
+[29-Nov-2016 04:54:26 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 38
+[29-Nov-2016 04:54:34 UTC] PHP Warning:  file_get_contents(IMG_7693.JPG): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:54:34 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 04:59:01 UTC] PHP Warning:  file_get_contents(32291.jpg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 04:59:01 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 05:01:47 UTC] PHP Warning:  file_get_contents(32291.jpg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 05:01:47 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 05:05:12 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 23
+[29-Nov-2016 05:05:55 UTC] PHP Warning:  file_get_contents(صوره شخصية.jpg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 05:05:55 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 05:10:09 UTC] PHP Warning:  file_get_contents(صوره شخصية1.jpg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 05:10:09 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 05:19:47 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 05:32:07 UTC] PHP Warning:  file_get_contents(صوره شخصية.jpeg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 05:32:07 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 05:33:48 UTC] PHP Warning:  file_get_contents(32291.jpg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 05:33:48 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 05:35:00 UTC] PHP Warning:  file_get_contents(32291.jpg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 05:35:00 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 05:35:42 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 23
+[29-Nov-2016 05:35:51 UTC] PHP Warning:  file_get_contents(32291.jpg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 05:35:51 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 05:39:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 42
+[29-Nov-2016 05:39:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 42
+[29-Nov-2016 05:39:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 42
+[29-Nov-2016 05:39:51 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 42
+[29-Nov-2016 05:39:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 42
+[29-Nov-2016 05:40:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 42
+[29-Nov-2016 05:40:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 42
+[29-Nov-2016 05:40:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 42
+[29-Nov-2016 05:42:33 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 23
+[29-Nov-2016 05:42:40 UTC] PHP Warning:  file_get_contents(32291.jpg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 05:42:40 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 05:43:32 UTC] PHP Warning:  file_get_contents(32291.jpg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 05:43:32 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 05:46:01 UTC] PHP Warning:  file_get_contents(32291.jpg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 05:46:01 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 05:47:09 UTC] PHP Warning:  file_get_contents(32291.jpg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 05:47:09 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 05:52:58 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 34
+[29-Nov-2016 05:53:18 UTC] PHP Warning:  file_get_contents(32291.jpg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 05:53:18 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 05:53:18 UTC] PHP Warning:  move_uploaded_file(): The second argument to copy() function cannot be a directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 34
+[29-Nov-2016 05:53:18 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpQqjVvP' to 'img/' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 34
+[29-Nov-2016 05:54:44 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 34
+[29-Nov-2016 05:55:24 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 34
+[29-Nov-2016 05:55:27 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 34
+[29-Nov-2016 05:56:12 UTC] PHP Warning:  file_get_contents(32291.jpg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 05:56:12 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 05:57:37 UTC] PHP Warning:  file_get_contents(32291.jpg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 05:57:37 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 05:58:23 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 23
+[29-Nov-2016 05:58:31 UTC] PHP Warning:  file_get_contents(MJ4E2.jpeg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 05:58:31 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 06:00:24 UTC] PHP Warning:  file_get_contents(IMG_7693.JPG): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 06:00:24 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 06:00:56 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 23
+[29-Nov-2016 06:01:24 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 23
+[29-Nov-2016 06:01:33 UTC] PHP Warning:  file_get_contents(32291.jpg): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 06:01:33 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 06:02:57 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 23
+[29-Nov-2016 06:03:04 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 23
+[29-Nov-2016 06:03:19 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 23
+[29-Nov-2016 06:06:04 UTC] PHP Warning:  file_get_contents(Picture1.png): failed to open stream: No such file or directory in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 30
+[29-Nov-2016 06:06:04 UTC] PHP Warning:  : failed to open stream: Invalid argument in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 31
+[29-Nov-2016 06:13:16 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 37
+[29-Nov-2016 06:14:03 UTC] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 36
+[29-Nov-2016 06:14:51 UTC] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 36
+[29-Nov-2016 06:19:05 UTC] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 36
+[29-Nov-2016 06:19:37 UTC] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 36
+[29-Nov-2016 06:20:05 UTC] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 36
+[29-Nov-2016 06:20:50 UTC] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 36
+[29-Nov-2016 06:21:58 UTC] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 36
+[29-Nov-2016 06:21:58 UTC] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 37
+[29-Nov-2016 06:26:42 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 23
+[29-Nov-2016 06:29:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 99
+[29-Nov-2016 06:30:00 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/malamodi/public_html/internetApp/receptionist/editPatientProfile.php on line 99

@@ -19,6 +19,7 @@ $res = $_SESSION['receptionist'];
 		$address = $_REQUEST['address'];
 	
 		$tmpName = $_FILES['image']['tmp_name'];
+		echo($tmpName);
 		// Read the file
 		$fp = fopen($tmpName, 'r');
 		$data = fread($fp, filesize($tmpName));

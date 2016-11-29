@@ -4,6 +4,7 @@ $res = $_SESSION['receptionist'];
 ?>
 
 <body>
+	<div align="center">
 	  <form method="post">
 	  <label>Search by patient's ID, name, or date of birth:</label></br>
 	  <input type="text" name="fName" placeholder="Patient's First Name">
@@ -52,6 +53,7 @@ $res = $_SESSION['receptionist'];
 		$results = mysql_query($query);
     	
 	    ?>
+	    </br>
 	  <table border="1">
 	  <tr>
 	    <th>Appointment ID</th>
@@ -94,7 +96,8 @@ $res = $_SESSION['receptionist'];
 			$results = mysql_query($query);
     	
 	    ?>
-	  <table border="1">
+	    </br>
+	    <table border="1">
 	  <tr>
 	    <th>Appointment ID</th>
 	    <th>Patient ID</th>
@@ -132,9 +135,9 @@ $res = $_SESSION['receptionist'];
 //   			$query="select * FROM Appointment where ApptDate between (select ApptDate from Appointment where ApptDate like '%$dateFrom%' limit 1) and (select ApptDate from Appointment where ApptDate like '%$dateTo%' limit 1) group by ApptDate";
  			$query="select * FROM Appointment where ApptDate between '$dateFrom' and '$dateTo'";
 			$results = mysql_query($query);
-			echo($res);
     	
 	    ?>
+	    </br>
 	  <table border="1">
 	  <tr>
 	    <th>Appointment ID</th>
@@ -165,6 +168,6 @@ $res = $_SESSION['receptionist'];
 		}}
 	?>
 	</table>
-	
+	  </div>
 </body>
 </html>
