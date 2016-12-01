@@ -3,9 +3,11 @@ include_once 'receptionistHeader.php';
 $res = $_SESSION['receptionist'];
 ?>
 
+
+
 <body>
 	<div align="center">
-	  <form method="post">
+	  </br> <form method="post">
 	  <label>Search by patient's ID, name, or date of birth:</label></br>
 	  <input type="text" name="fName" placeholder="Patient's First Name">
 	  <input type="text" name="lName" placeholder="Patient's Last Name">

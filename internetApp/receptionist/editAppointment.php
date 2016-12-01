@@ -2,15 +2,28 @@
 include_once 'receptionistHeader.php';
 $appID = $_REQUEST['id'];
 ?>
+<!--
 <style>
+/*
 	#form {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translateX(-50%) translateY(-50%);
     }
+*/
+    input[type=text] {
+	    padding: 12px 20px;
+	    margin: 8px 0;
+	    display: inline-block;
+	    border: 1px solid #ccc;
+	    border-radius: 10px;
+	    box-sizing: border-box;
+	}
 </style>
+-->
 <body>
+	
 <?php
 	if(isset($_POST['edit-submit']))
 	{
@@ -31,7 +44,7 @@ $appID = $_REQUEST['id'];
     	}
     	 else {
         	$res=mysql_query("update Appointment set ApptDate='$date', ApptTime='$time', Comments='$comm', ApptStatus='$status', PatientID='$pID' WHERE ApptID='$appID'");
-			echo('<p style="color: green">We have updated your name successfully </p>');
+			echo('<p style="color: green"> We have updated your name successfully </p>');
     	}
     }
     if(isset($_REQUEST['id']))

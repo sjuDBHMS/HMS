@@ -4,14 +4,17 @@ $res = $_SESSION['receptionist'];
 $newApp = $_REQUEST['newApp'];
 ?>
 <style>
+/*
 	#form {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translateX(-50%) translateY(-50%);
     }
+*/
 </style>
 <body>
+	<div align="center">
 <?php
 	if(isset($_POST['add-submit']))
 	{
@@ -48,6 +51,7 @@ $newApp = $_REQUEST['newApp'];
 		
 		
 		?>
+		</br> <label>Add a new appointment:</label> </br>
 		<div id="form">
 		<form method="post">
 		<label>Patient ID:</label>
@@ -55,11 +59,12 @@ $newApp = $_REQUEST['newApp'];
 		<label>Appointment Date:</label>
 		<input type="date" name="date"></br>
 		<label>Appointment Time:</label>
-		<input type="test" name="time"></br>
+		<input type="text" name="time"></br>
 		<label>Comments:</label>
 		<input type="text" name="comm"></br>
 		<label>ApptStatus:</label>
 		<input type="text" name="status"></br></br>
 		<input type="submit" name="add-submit"></br>
+</div>
 </body>
 </html>
