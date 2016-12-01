@@ -94,8 +94,8 @@ function selectPatient() {
 		$query='INSERT INTO SeenBy(ApptID, EmpId) VALUES ('.$ApptID.','.$doctorID.')';
 		$retval=mysql_query($query);
 	}
-	$seenByquery="SELECT * from Bill where ApptID=$ApptID ";
-	$result = mysql_query($seenByquery);
+	$Billquery="SELECT * from Bill where ApptID=$ApptID ";
+	$result = mysql_query($Billquery);
 	$row = mysql_fetch_array($result);
 	if(mysql_num_rows($result)==0)
 	{
@@ -106,7 +106,6 @@ function selectPatient() {
 		$TotalAmount=$row['TotalAmount']+30;
 		$PendingAmount= $row['PendingAmount']+30;
 		$query="UPDATE Bill SET PendingAmount= '$PendingAmount', TotalAmount= '$TotalAmount' WHERE BillId= '$BillId' " ;
-		echo $query;
 		mysql_query($query);
 	}
 	
@@ -133,10 +132,24 @@ function updateStatus()
 }
 function cancelApptID()
 {
-	
+	$doctorID=$_SESSION['doctor'];
 	$ApptID= $_GET['cancelApptID'];
 	$query="UPDATE Appointment SET ApptStatus=NULL WHERE ApptID=$ApptID";
 	$result = mysql_query($query);
+	
+	$removeseenByquery="DELETE FROM SeenBy WHERE ApptID='$ApptID' and EmpId='$doctorID'";
+	mysql_query($removeseenByquery);
+	$Billquery="SELECT * from Bill where ApptID=$ApptID ";
+	$result = mysql_query($Billquery);
+	$row = mysql_fetch_array($result);
+	if(mysql_num_rows($result)==1)
+	{
+		$BillId=$row['BillId'];
+		$TotalAmount=$row['TotalAmount']-30;
+		$PendingAmount= $row['PendingAmount']-30;
+		$query="UPDATE Bill SET PendingAmount= '$PendingAmount', TotalAmount= '$TotalAmount' WHERE BillId= '$BillId' " ;
+		mysql_query($query);
+	}
 }
 ?>
 <body>
@@ -214,7 +227,7 @@ if(mysql_num_rows($apptResult)>0)
 	<?php
 		while ($row = mysql_fetch_array($apptResult)) {
 			$PatientID = $row['PatientID'];
-			$patientQuer="SELECT * FROM Patient WHERE PatientID='$patientID' ";
+			$patientQuer="SELECT * FROM Patient WHERE PatientID='$PatientID' ";
 			$patientResult = mysql_query($patientQuer);
 			$patientDetails = mysql_fetch_array($patientResult);
 			$dob = new DateTime($patientDetails['DOB']);
