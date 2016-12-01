@@ -175,3 +175,39 @@ table tr td a
 #resHeader .active {
     background-color: #b04c53;
 }
+
+/* Tables Style */
+
+<style>
+.wrapper{
+margin-left: 20px;
+margin-top: -22px;
+height: 200px;
+border: 2px solid black;
+width:80%; 
+overflow: auto;
+	}
+ table{
+ 	width:98%; 
+
+ }
+  table, th, td {
+	margin: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 10%;
+	height:30%; 
+	overflow: auto;
+	background-color: #f1f1c1;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+.listHeadign {
+margin: 20px;
+border: 2px solid black;
+width:80%; 
+	border: 2px solid black;
+}
+</style>

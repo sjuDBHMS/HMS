@@ -423,3 +423,32 @@
 [18-Nov-2016 01:29:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/malamodi/public_html/internetApp/login/index.php:51) in /home/malamodi/public_html/internetApp/login/index.php on line 53
 [18-Nov-2016 01:29:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/malamodi/public_html/internetApp/login/index.php:51) in /home/malamodi/public_html/internetApp/login/index.php on line 53
 [18-Nov-2016 02:06:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/malamodi/public_html/internetApp/login/register.php:42) in /home/malamodi/public_html/internetApp/login/register.php on line 100
+[20-Nov-2016 17:22:38 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/login/register.php on line 22
+[20-Nov-2016 17:22:38 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/register.php on line 23
+[20-Nov-2016 17:22:38 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/register.php on line 25
+[20-Nov-2016 17:22:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/malamodi/public_html/internetApp/login/register.php:42) in /home/malamodi/public_html/internetApp/login/register.php on line 100
+[20-Nov-2016 17:32:55 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/login/register.php on line 22
+[20-Nov-2016 17:32:55 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/register.php on line 23
+[20-Nov-2016 17:32:55 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/register.php on line 25
+[20-Nov-2016 17:32:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/malamodi/public_html/internetApp/login/register.php:42) in /home/malamodi/public_html/internetApp/login/register.php on line 100
+[21-Nov-2016 21:02:43 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/index.php on line 18
+[21-Nov-2016 21:02:43 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/index.php on line 19
+[21-Nov-2016 21:03:52 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/index.php on line 18
+[21-Nov-2016 21:03:52 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/index.php on line 19
+[21-Nov-2016 21:05:36 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/index.php on line 18
+[21-Nov-2016 21:05:36 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/index.php on line 19
+[21-Nov-2016 21:05:46 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/index.php on line 18
+[21-Nov-2016 21:05:46 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/index.php on line 19
+[21-Nov-2016 21:06:21 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/index.php on line 18
+[21-Nov-2016 21:06:21 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/index.php on line 19
+[21-Nov-2016 21:06:38 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/index.php on line 18
+[21-Nov-2016 21:06:38 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/index.php on line 19
+[21-Nov-2016 21:22:43 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/index.php on line 18
+[21-Nov-2016 21:22:43 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/index.php on line 19
+[28-Nov-2016 03:00:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/malamodi/public_html/internetApp/login/register.php:42) in /home/malamodi/public_html/internetApp/login/register.php on line 100
+[29-Nov-2016 21:36:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/malamodi/public_html/internetApp/login/register.php:42) in /home/malamodi/public_html/internetApp/login/register.php on line 100
+[29-Nov-2016 23:10:06 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/malamodi/public_html/internetApp/login/register.php on line 22
+[29-Nov-2016 23:10:06 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/register.php on line 23
+[29-Nov-2016 23:10:06 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/malamodi/public_html/internetApp/login/register.php on line 25
+[29-Nov-2016 23:10:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/malamodi/public_html/internetApp/login/register.php:42) in /home/malamodi/public_html/internetApp/login/register.php on line 100
+[29-Nov-2016 23:12:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/malamodi/public_html/internetApp/login/register.php:42) in /home/malamodi/public_html/internetApp/login/register.php on line 100
