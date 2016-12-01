@@ -28,6 +28,7 @@ if (isset($_GET['cancelApptID'])) {
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<link rel="stylesheet" href="../style.css" type="text/css" />
 <style>
 .wrapper{
 margin-left: 20px;
@@ -212,7 +213,7 @@ if(mysql_num_rows($apptResult)>0)
     </tr> 
 	<?php
 		while ($row = mysql_fetch_array($apptResult)) {
-			$patientID = $row['PatientID'];
+			$PatientID = $row['PatientID'];
 			$patientQuer="SELECT * FROM Patient WHERE PatientID='$patientID' ";
 			$patientResult = mysql_query($patientQuer);
 			$patientDetails = mysql_fetch_array($patientResult);
@@ -222,22 +223,17 @@ if(mysql_num_rows($apptResult)>0)
 
 			echo '<tr>';
         	echo '<td>' . $row['ApptID'] . '</td>';
-        	echo '<td>' . $patientID . '</td>';
+        	echo '<td>' . $PatientID . '</td>';
         	echo '<td>' . $patientDetails['PatientFName'] . '</td>';
         	echo '<td>' . $patientDetails['PatientLName'] . '</td>';
         	echo '<td>' . $age . '</td>';
         	?>
         	<td>
-        	<br><br>
-        	<form method="post" action="doctor.php">
-        	<input type="hidden" name="ApptID" value= <?php echo $row['ApptID']; ?> >
-				<select name="status" >
+        		<select name="status" onchange="updateStatus(this.value)"> 
 					<option value="select">--Select--</option>
-					<option value="close">Close</option>
-					<option value="reschedule">Reschedule</option>
+					<option value= <?php echo 'closeAppointment.php?ApptID='.$row['ApptID']?> >close Appointment</option>
+				    <option name = "Reschedule" value= "<?php echo 'reschedule.php?PatientID='.$PatientID?> ">Reschedule</option>
 				</select><br>
-			<input type="submit" name="updateStatus" value="Submit" >
-			</form>
 			</td>
         	<td>
 	        	<form method="post" action="doctor.php">
