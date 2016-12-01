@@ -70,8 +70,9 @@ width:80%;
 <title>Welcome - <?php echo $_SESSION['EmpFName']; ?></title>
 <div id="resHeader">
 <ul>
-  <li style="float:right"><a class="active" href="../login/logout.php?logout">Sign Out</a></li>
-  <li style="float:right"><a href="doctor.php">Welcome <?php echo $_SESSION['EmpFName']; ?></a></li>
+	<li><a href="editProfile.php">Edit Profile</a></li>
+	<li style="float:right"><a class="active" href="../login/logout.php?logout">Sign Out</a></li>
+	<li style="float:right"><a href="doctor.php">Welcome <?php echo $_SESSION['EmpFName']; ?></a></li>
 </div>
 </head>
 
