@@ -14,7 +14,7 @@ overlayClose:false,onClosed:function() { location.reload(true); }});
       
       function updateStatus(location) {
   			if (location=="") return;
-			setTimeout(openpopup(location), 0);
+			openpopup(location)
 			} 
     </script>
 <body>
