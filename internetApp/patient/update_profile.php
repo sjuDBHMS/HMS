@@ -12,8 +12,7 @@ include_once 'patientHeader.php';
 </head>
 
 <body>
-<p>Patient ID: <?php echo $_SESSION['user']; ?></p>
-<p>First Name:<?php echo $_SESSION['PatientFName']; ?></p>
+
 <?php
 $ID=$_SESSION['user'];
 #$query="SELECT * FROM patientWHERE patientID=$ID";
@@ -32,7 +31,7 @@ $result= $db->query($query);
 <form action="updateDB.php" method="post" enctype="multipart/form-data">
 <table align="center" width="30%" border="0">
 <tr>
-<td colspan="2"><h1 align="center">Updating My Profile</h1>
+<td colspan="2"><h1 align="center">Update My Profile</h1>
 </td>
 </tr>
 <?php $count=1 ?>
