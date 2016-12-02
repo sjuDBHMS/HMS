@@ -17,7 +17,7 @@ if(!isset($_SESSION['user']))
 <div id="resHeader">
 <ul>
   <li><a href="home.php">Home</a></li>
-  <li><a href="myappointments.php">My Appointment</a></li>
+  <li><a href="myappointments.php">My Appointments</a></li>
   <li><a href="bills.php">View My Bills</a></li>
   <li><a href="myprofile.php">View My profile</a></li>
   <li><a href="update_profile.php">Update My profile</a></li>
