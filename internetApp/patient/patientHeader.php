@@ -10,18 +10,21 @@ if(!isset($_SESSION['user']))
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Welcome - <?php echo $_SESSION['user']; ?></title>
+<title>Welcome - <?php echo $_SESSION['PatientFName']; ?></title>
 <link rel="stylesheet" href="../style.css" type="text/css" />
+<link rel="stylesheet" href="style.css" type="text/css" />
 
-<div id="header">
-	<div id="left">
-    <label>Login</label>
-    </div>
-    <div id="right">
-    	<div id="content">
-        	Welcome <?php echo $_SESSION['PatientFName']; ?>&nbsp;<a href="../login/logout.php?logout">Sign Out</a>
-        	
-        </div>
-    </div>
+<div id="resHeader">
+<ul>
+  <li><a href="home.php">Home</a></li>
+  <li><a href="myappointments.php">My Appointment</a></li>
+  <li><a href="bills.php">View My Bills</a></li>
+  <li><a href="myprofile.php">View My profile</a></li>
+  <li><a href="update_profile.php">Update My profile</a></li>
+  <li style="float:right"><a class="active" href="../login/logout.php?logout">Sign Out</a></li>
+  <li style="float:right"><a>Welcome <b><?php echo $_SESSION['PatientFName']; ?></b></li>
+<!--   <li style="float:right"><a class="active" href="#about">About</a></li> -->
+</ul>
 </div>
+
 </head>
