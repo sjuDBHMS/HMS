@@ -72,8 +72,8 @@ width:80%;
 <div id="resHeader">
 <ul>
 	<li><a href="doctor.php">Home</a></li>
-	<li><a href="editProfile.php">Edit Profile</a></li>
 	<li style="float:right"><a class="active" href="../login/logout.php?logout">Sign Out</a></li>
+	<li style="float:right"><a href="editProfile.php">Edit Profile</a></li>
 	<li style="float:right"><a href="doctor.php">Welcome <?php echo $_SESSION['EmpFName']; ?></a></li>
 </div>
 </head>
@@ -151,14 +151,14 @@ function cancelApptID()
 	}
 }
 ?>
-<body>
+<body bgcolor="#f2f2f2">
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <!-- Select patients -->
 <div class="listHeadign" ><h2>Waiting List</h2></div>
 <div class="wrapper">
 <?php 
 $doctorID=$_SESSION['doctor'];
-$apptQuery="SELECT * FROM Appointment where DATE(AppDate) = CURDATE() and (ApptStatus is null)";
+$apptQuery="SELECT * FROM Appointment where DATE(ApptDate) = CURDATE() and (ApptStatus is null)";
 $apptResult = mysql_query($apptQuery);
 //echo mysql_num_rows($result)
 if(mysql_num_rows($apptResult)>0)
@@ -206,7 +206,7 @@ echo '<h2 style="color:#a51313;font-family: courier;">No appointments found<h2>'
 <div class="wrapper">
 <?php 
 $doctorID=$_SESSION['doctor'];
-$apptQuery="SELECT * FROM Appointment where DATE(AppDate) = CURDATE() and ApptStatus = '$doctorID'";
+$apptQuery="SELECT * FROM Appointment where DATE(ApptDate) = CURDATE() and ApptStatus = '$doctorID'";
 $apptResult = mysql_query($apptQuery);
 //echo mysql_num_rows($result)
 if(mysql_num_rows($apptResult)>0)

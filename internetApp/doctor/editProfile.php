@@ -4,6 +4,18 @@ include_once '../dbconnect.php';
 $EmpID = $_SESSION['doctor'];
 
 ?>
+<link rel="stylesheet" href="../style.css" type="text/css" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script type="text/javascript">
+function countdown() {
+    var i = document.getElementById('counter');
+    if (parseInt(i.innerHTML)<=0) {
+        location.href = 'login.php';
+    }
+    i.innerHTML = parseInt(i.innerHTML)-1;
+}
+setInterval(function(){ countdown(); },1000);
+</script>
 <style>
 	#form {
 	position: absolute;
@@ -15,12 +27,11 @@ $EmpID = $_SESSION['doctor'];
     position: relative;
 	}
 	#profileImage img {
-    position: absolute;
-    top: 50px;
+    position: fixed;
+    top: 80px;
     right: 50px;
     border: 2px solid rgba(00,11,22,33);
-border-radius: 7px;
-
+	border-radius: 7px;
 }
 </style>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -32,8 +43,8 @@ border-radius: 7px;
 <div id="resHeader">
 <ul>
 	<li><a href="doctor.php">Home</a></li>
-	<li><a href="editProfile.php">Edit Profile</a></li>
 	<li style="float:right"><a class="active" href="../login/logout.php?logout">Sign Out</a></li>
+	<li style="float:right"><a href="editProfile.php">Edit Profile</a></li>
 	<li style="float:right"><a href="doctor.php">Welcome <?php echo $_SESSION['EmpFName']; ?></a></li>
 </div>
 <script>
@@ -69,7 +80,7 @@ function validateForm() {
 </script>
 </head>
 
-<body>
+<body bgcolor="#f2f2f2">
 <?php
 	if (isset($_REQUEST['updateProfile'])) {
 		updateProfile();
@@ -77,14 +88,6 @@ function validateForm() {
 	}
 function updateProfile()
 {
-// 	if (!empty($_REQUEST['image'])) {
-// 		$tmpName = $_FILES['image']['tmp_name'];
-// 		$fp = fopen($tmpName, 'r');
-// 		$data = fread($fp, filesize($tmpName));
-// 		$data = addslashes($data);
-// 		fclose($fp);
-// 	    	$res=mysql_query( "update Employee set EmpFName='$EmpFName', EmpLName='$EmpLName', EmpAddress='$EmpAddress' WHERE EmpID='$EmpID'");
-// 	}
 	$maxsize = 10000000;
 	$EmpFName=  $_REQUEST['EmpFName'];
 	$EmpLName=  $_REQUEST['EmpLName'];
@@ -129,12 +132,12 @@ function updateProfile()
 			$message = "Your profile has been successfully updated ";
 			$flag="updated";	
     }
-    if($msg=="failed"){
-	    echo '<center><h1 style="color: red;font-family:verdana;margin-top:100px"> '.$message.'</h1></center>';
+    if($flag=="Not updated"){
+	    echo '<center><h2 style="color: red;font-family:verdana;margin-top:30px;"> '.$msg.'</h2></center>';
     }else{
-    	echo '<center><h1 style="color: green;font-family:verdana;margin-top:100px"> '.$message.'</h1>';
-    	echo 'You will be redirected in 2 seconds</center>';
-		echo "<script>setTimeout(\"location.href = 'doctor.php';\",2000);</script>";
+    	echo '<center><h2 style="color: green;font-family:verdana;margin-top:30px;"> '.$message.'</h2>';
+    	echo '<p>You will be redirected in <span id="counter">5</span> second(s).</p></center>';
+		echo "<script>setTimeout(\"location.href = 'doctor.php';\",5000);</script>";
     }
 	
 

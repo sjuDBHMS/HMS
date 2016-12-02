@@ -15,14 +15,15 @@ if(!isset($_SESSION['receptionist']))
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Welcome - <?php echo $userName; ?></title>
 <link rel="stylesheet" href="../style.css" type="text/css" />
+<link rel="stylesheet" href="style.css" type="text/css" />
 
 <div id="resHeader">
 <ul>
   <li><a href="patientSearch.php">Patient Search</a></li>
-  <li><a href="editProfile.php">Edit Profile</a></li>
   <li><a href="newApp.php">New Appointment</a></li>
   <li><a href="appSearch.php">Appointment Search</a></li>
   <li style="float:right"><a class="active" href="../login/logout.php?logout">Sign Out</a></li>
+  <li style="float:right"><a href="editProfile.php">Edit Profile</a></li>
   <li style="float:right"><a>Welcome <?php echo $userName; ?></li>
 <!--   <li style="float:right"><a class="active" href="#about">About</a></li> -->
 </ul>

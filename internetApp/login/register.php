@@ -130,7 +130,7 @@ header("Location: home.php");}
 <td><input type="text" name="phone2" placeholder="User Phone Number 2" /></td>
 </tr>
 <tr>
-<td><input type="file" name="image" placeholder="User Image" required /></td>
+<td><input type="file" name="image" placeholder="User Image" /></td>
 </tr>
 
 <tr>

@@ -3,14 +3,18 @@ include_once 'receptionistHeader.php';
 $res = $_SESSION['receptionist'];
 ?>
 <style>
+/*
 	#form {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translateX(-50%) translateY(-50%);
     }
+*/
 </style>
+
 <body>
+<div align="center">
 <?php
 	if(isset($_POST['edit-submit']))
 	{
@@ -52,16 +56,18 @@ $res = $_SESSION['receptionist'];
 	// 	echo($res);
 		
 		?>
+		</br> <label>Search by patient ID, name or date of birth:</label> </br>
 		<div id="form">
 		<form method="post">
 		<label>First Name:</label>
-		<input type="text" name="fName" value=<?php echo($fn)?>>
+		<input type="text" name="fName" value=<?php echo($fn)?>> </br>
 		<label>Last Name:</label>
-		<input type="text" name="lName" value=<?php echo($row_sql['EmpLName'])?>></br>
+		<input type="text" name="lName" value=<?php echo($row_sql['EmpLName'])?>> </br>
 		<label>Address:</label>
-		<input type="text" name="address" value=<?php echo($row_sql['EmpAddress'])?>>
+		<input type="text" name="address" value=<?php echo($row_sql['EmpAddress'])?>> </br>
 		<label>Image:</label>
 		<input type="file" name="image"></br>
 		<input type="submit" name="edit-submit"></br>
+</div>
 </body>
 </html>

@@ -15,6 +15,7 @@ if(isset($_POST['btn-login']))
 	$ID = trim($ID);
 	$upass = trim($upass);
 	$res=mysql_query("SELECT ID, Password, Type FROM LoginDetails WHERE ID='$ID'");
+	//$res=mysql_query("SELECT LoginID, Password, Type FROM LoginDetails WHERE LoginID='$ID'");
 	$row=mysql_fetch_array($res);
 	$count = mysql_num_rows($res); // if uname/pass correct it returns must be 1 row
 
@@ -60,6 +61,20 @@ if(isset($_POST['btn-login']))
 		
 		$_SESSION['receptionist'] = $receptionistID;
 		header("Location: ../receptionist/receptionist.php");
+	}
+	else if($count == 1 && $row['Password']==md5($upass) && $row['Type'] == "Admin")
+	{
+		$adminID = $row['ID'];
+		$ses_sql=mysql_query("select * from Employee where EmpID='$adminID'");
+		$row_sql=mysql_fetch_array($ses_sql);
+		$count_sql = mysql_num_rows($ses_sql);
+		if($count_sql == 1)
+		{
+			$_SESSION['adminFName'] = $row_sql['EmpFName'];
+		}
+		
+		$_SESSION['admin'] = $adminID;
+		header("Location: ../admin/admin.php");
 	} 
 	else
 	{
