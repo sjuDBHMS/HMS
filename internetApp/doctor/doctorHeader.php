@@ -34,7 +34,8 @@ if (isset($_GET['cancelApptID'])) {
 margin-left: 20px;
 margin-top: -22px;
 height: 200px;
-border: 2px solid black;
+border: 2px solid rgba(00,11,22,33);
+    border-radius: 5px;
 width:80%; 
 overflow: auto;
 	}
@@ -57,9 +58,9 @@ th, td {
 }
 .listHeadign {
 margin: 20px;
-border: 2px solid black;
+border: 2px solid rgba(00,11,22,33);
+border-radius: 5px;
 width:80%; 
-	border: 2px solid black;
 }
 </style>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -70,6 +71,7 @@ width:80%;
 <title>Welcome - <?php echo $_SESSION['EmpFName']; ?></title>
 <div id="resHeader">
 <ul>
+	<li><a href="doctor.php">Home</a></li>
 	<li><a href="editProfile.php">Edit Profile</a></li>
 	<li style="float:right"><a class="active" href="../login/logout.php?logout">Sign Out</a></li>
 	<li style="float:right"><a href="doctor.php">Welcome <?php echo $_SESSION['EmpFName']; ?></a></li>
@@ -194,7 +196,7 @@ if(mysql_num_rows($apptResult)>0)
 </table>
 <?php 
 }else
-echo "No appointments found"
+echo '<h2 style="color:#a51313;font-family: courier;">No appointments found<h2>';
 ?>
 </div>
 
@@ -263,7 +265,7 @@ if(mysql_num_rows($apptResult)>0)
 </table>
 <?php 
 }else
-echo "No Patient Selected"
+echo '<h2 style="color:#a51313;font-family: courier;">No Patient Selected<h2>';
 ?>
 </div>
 
