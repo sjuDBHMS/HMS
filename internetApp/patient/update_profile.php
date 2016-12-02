@@ -18,16 +18,12 @@ include_once 'patientHeader.php';
 $ID=$_SESSION['user'];
 #$query="SELECT * FROM patientWHERE patientID=$ID";
 $query="SELECT * 
-FROM patient, patient_phone
-where patient.PatientID=patient_phone.PatientID AND patient.patientID=$ID";
+FROM patient, patient_phone, logindetails
+where patient.PatientID=patient_phone.PatientID AND patient.PatientID=logindetails.ID AND patient.patientID=$ID";
 $result= $db->query($query);
 
  ?>
-<br/><br/>
-<p align="center"><a href="home.php">My Home</a>  |  <a href="myappointments.php">My Appointment</a>  |  <a href="bills.php">View My Bills</a>  |  <a href="myprofile.php">View My profile</a>   |   <a href="update_profile.php">Update My profile</a>  |  
-</p>  
 
-<br/>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <body>
@@ -35,13 +31,15 @@ $result= $db->query($query);
 <div id="login-form">
 <form action="updateDB.php" method="post" enctype="multipart/form-data">
 <table align="center" width="30%" border="0">
-<?php foreach ($result as $patient) : ?>
-
 <tr>
 <td colspan="2"><h1 align="center">Updating My Profile</h1>
 </td>
 </tr>
+<?php $count=1 ?>
+<?php foreach ($result as $patient) : ?>
 
+
+<?php if($count==1) {?>
 
 <tr>
 
@@ -60,16 +58,26 @@ $result= $db->query($query);
 <td><input type="text" name="address" placeholder="User Address" value="<?php echo $patient['PatientAddress']; ?>"  /></td>
 </tr>
 <tr>
-<td><input type="text" name="phone1" placeholder="User Phone Number 1" value=<?php echo $patient['Phone']; ?> /></td>
+<td><input type="password" name="password" placeholder="Password" value="<?php echo $patient['PatientAddress']; ?>"  /></td>
 </tr>
+<?php } ?>
+
+<?php if($count>=1) {?>
+
+<tr>
+<td><input type="text" name="phone<?php echo $count ?>" placeholder="User Phone Number " value=<?php echo $patient['Phone']; ?> />
+<input type="hidden" name="oldphone<?php echo $count ?>" placeholder="User Phone Number " value=<?php echo $patient['Phone']; ?> />
+</td>
+</tr>
+<?php } ?>
+
+<?php $count++; ?>
 
 
-
-
+<?php endforeach; ?>
 <tr>
 <td><button type="submit" name="btn-signup">Update profile</button></td>
 </tr>
-<?php endforeach; ?>
 
 </table>
 </form>
