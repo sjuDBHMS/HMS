@@ -18,8 +18,8 @@ if(!isset($_SESSION['user']))
 <ul>
   <li><a href="home.php">Home</a></li>
   <li><a href="myappointments.php">My Appointments</a></li>
-  <li><a href="bills.php">View My Bills</a></li>
-  <li><a href="myprofile.php">View My profile</a></li>
+  <li><a href="bills.php"> My Bills</a></li>
+  <li><a href="myprofile.php"> My Profile</a></li>
   <li><a href="update_profile.php">Update My profile</a></li>
   <li style="float:right"><a class="active" href="../login/logout.php?logout">Sign Out</a></li>
   <li style="float:right"><a>Welcome <b><?php echo $_SESSION['PatientFName']; ?></b></li>
