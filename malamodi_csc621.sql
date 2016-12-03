@@ -26,7 +26,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `appointment`
 --
 
-CREATE TABLE `appointment` (
+CREATE TABLE `Appointment` (
   `ApptID` int(11) NOT NULL,
   `ApptDate` date NOT NULL,
   `ApptTime` time NOT NULL,
@@ -40,7 +40,7 @@ CREATE TABLE `appointment` (
 -- Dumping data for table `appointment`
 --
 
-INSERT INTO `appointment` (`ApptID`, `ApptDate`, `ApptTime`, `Comments`, `Prescription`, `ApptStatus`, `PatientID`) VALUES
+INSERT INTO `Appointment` (`ApptID`, `ApptDate`, `ApptTime`, `Comments`, `Prescription`, `ApptStatus`, `PatientID`) VALUES
 (5601, '2017-04-04', '09:30:00', NULL, NULL, 'closed', 198001),
 (5602, '2017-01-16', '11:34:00', 'needs to pay', NULL, 'closed', 198002),
 (5603, '2016-08-08', '08:36:00', NULL, 'placebo', 'closed', 198003),
@@ -68,7 +68,7 @@ INSERT INTO `appointment` (`ApptID`, `ApptDate`, `ApptTime`, `Comments`, `Prescr
 -- Table structure for table `bill`
 --
 
-CREATE TABLE `bill` (
+CREATE TABLE `Bill` (
   `BillId` int(11) NOT NULL,
   `PendingAmount` decimal(10,2) NOT NULL,
   `TotalAmount` decimal(10,2) NOT NULL,
@@ -80,7 +80,7 @@ CREATE TABLE `bill` (
 -- Dumping data for table `bill`
 --
 
-INSERT INTO `bill` (`BillId`, `PendingAmount`, `TotalAmount`, `Paid`, `ApptID`) VALUES
+INSERT INTO `Bill` (`BillId`, `PendingAmount`, `TotalAmount`, `Paid`, `ApptID`) VALUES
 (623001, '100.00', '1000.00', '900.00', 5601),
 (623021, '50.00', '1000.00', '950.00', 5602),
 (623022, '0.00', '10.00', '10.00', 5603),
@@ -108,7 +108,7 @@ INSERT INTO `bill` (`BillId`, `PendingAmount`, `TotalAmount`, `Paid`, `ApptID`) 
 -- Table structure for table `department`
 --
 
-CREATE TABLE `department` (
+CREATE TABLE `Department` (
   `DeptId` int(11) NOT NULL,
   `DeptName` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -117,7 +117,7 @@ CREATE TABLE `department` (
 -- Dumping data for table `department`
 --
 
-INSERT INTO `department` (`DeptId`, `DeptName`) VALUES
+INSERT INTO `Department` (`DeptId`, `DeptName`) VALUES
 (1, 'Surgeon'),
 (2, 'Accounts'),
 (3, 'Administration');
@@ -128,7 +128,7 @@ INSERT INTO `department` (`DeptId`, `DeptName`) VALUES
 -- Table structure for table `employee`
 --
 
-CREATE TABLE `employee` (
+CREATE TABLE `Employee` (
   `EmpID` int(11) NOT NULL,
   `EmpFName` varchar(40) NOT NULL,
   `EmpLName` varchar(40) NOT NULL,
@@ -144,7 +144,7 @@ CREATE TABLE `employee` (
 -- Dumping data for table `employee`
 --
 
-INSERT INTO `employee` (`EmpID`, `EmpFName`, `EmpLName`, `StartDate`, `EndDate`, `EmpAddress`, `EmpType`, `Image`, `DeptID`) VALUES
+INSERT INTO `Employee` (`EmpID`, `EmpFName`, `EmpLName`, `StartDate`, `EndDate`, `EmpAddress`, `EmpType`, `Image`, `DeptID`) VALUES
 (12001, 'Hemanth', 'Nalamothu', '2016-10-11', NULL, 'Penn', 'Doctor', NULL, 1),
 (12002, 'Tom', 'Keen', '2016-09-13', NULL, 'New York', 'recep', NULL, 2),
 (12003, 'John', 'Smith', '2016-08-16', NULL, '5600, City ave.', 'Admin', NULL, 3),
@@ -172,7 +172,7 @@ INSERT INTO `employee` (`EmpID`, `EmpFName`, `EmpLName`, `StartDate`, `EndDate`,
 -- Table structure for table `employee_phone`
 --
 
-CREATE TABLE `employee_phone` (
+CREATE TABLE `Employee_Phone` (
   `Phone` varchar(15) NOT NULL,
   `EmpID` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -181,7 +181,7 @@ CREATE TABLE `employee_phone` (
 -- Dumping data for table `employee_phone`
 --
 
-INSERT INTO `employee_phone` (`Phone`, `EmpID`) VALUES
+INSERT INTO `Employee_Phone` (`Phone`, `EmpID`) VALUES
 ('1009568348', 12010),
 ('1213456572', 12003),
 ('1234567890', 12002),
@@ -210,7 +210,7 @@ INSERT INTO `employee_phone` (`Phone`, `EmpID`) VALUES
 -- Table structure for table `logindetails`
 --
 
-CREATE TABLE `logindetails` (
+CREATE TABLE `LoginDetails` (
   `ID` int(10) NOT NULL,
   `Password` varchar(100) NOT NULL,
   `Type` varchar(10) NOT NULL
@@ -220,7 +220,7 @@ CREATE TABLE `logindetails` (
 -- Dumping data for table `logindetails`
 --
 
-INSERT INTO `logindetails` (`ID`, `Password`, `Type`) VALUES
+INSERT INTO `LoginDetails` (`ID`, `Password`, `Type`) VALUES
 (12001, 'ba3abb2c0cb388f3cd4e77de3c78ff51', 'Doctor'),
 (12002, 'f6bc0623a4ab517ae89db46f368c09c4', 'recep'),
 (12003, 'd2a9aaedbe3616c7be11e07856c29e2a', 'Admin'),
@@ -248,7 +248,7 @@ INSERT INTO `logindetails` (`ID`, `Password`, `Type`) VALUES
 -- Table structure for table `patient`
 --
 
-CREATE TABLE `patient` (
+CREATE TABLE `Patient` (
   `PatientID` int(11) NOT NULL,
   `PatientFName` varchar(25) NOT NULL,
   `PatientLName` varchar(25) NOT NULL,
@@ -261,7 +261,7 @@ CREATE TABLE `patient` (
 -- Dumping data for table `patient`
 --
 
-INSERT INTO `patient` (`PatientID`, `PatientFName`, `PatientLName`, `PatientAddress`, `DOB`, `Image`) VALUES
+INSERT INTO `Patient` (`PatientID`, `PatientFName`, `PatientLName`, `PatientAddress`, `DOB`, `Image`) VALUES
 (198001, 'Mohammed', 'Alamoudi', 'Lancaster Ave. , Philadelphia, Pa', '1990-12-11', NULL),
 (198002, 'Victor', 'Logan', 'City Ave. , Philadelphia, Pa', '1994-03-11', NULL),
 (198003, 'Jack', 'Johnson', 'Park ave, Pleasantville, Pa', '1997-09-10', NULL),
@@ -289,7 +289,7 @@ INSERT INTO `patient` (`PatientID`, `PatientFName`, `PatientLName`, `PatientAddr
 -- Table structure for table `patient_phone`
 --
 
-CREATE TABLE `patient_phone` (
+CREATE TABLE `Patient_Phone` (
   `Phone` char(15) NOT NULL,
   `PatientID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -298,7 +298,7 @@ CREATE TABLE `patient_phone` (
 -- Dumping data for table `patient_phone`
 --
 
-INSERT INTO `patient_phone` (`Phone`, `PatientID`) VALUES
+INSERT INTO `Patient_Phone` (`Phone`, `PatientID`) VALUES
 ('0500111405', 198001),
 ('2156099039', 198002),
 ('9061438546', 198003),
@@ -326,7 +326,7 @@ INSERT INTO `patient_phone` (`Phone`, `PatientID`) VALUES
 -- Table structure for table `seenby`
 --
 
-CREATE TABLE `seenby` (
+CREATE TABLE `SeenBy` (
   `ApptID` int(11) NOT NULL,
   `EmpId` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -335,7 +335,7 @@ CREATE TABLE `seenby` (
 -- Dumping data for table `seenby`
 --
 
-INSERT INTO `seenby` (`ApptID`, `EmpId`) VALUES
+INSERT INTO `SeenBy` (`ApptID`, `EmpId`) VALUES
 (5601, 12001),
 (5602, 12004),
 (5603, 12005),
@@ -364,59 +364,59 @@ INSERT INTO `seenby` (`ApptID`, `EmpId`) VALUES
 --
 -- Indexes for table `appointment`
 --
-ALTER TABLE `appointment`
+ALTER TABLE `Appointment`
   ADD PRIMARY KEY (`ApptID`),
   ADD KEY `PatientID` (`PatientID`);
 
 --
 -- Indexes for table `bill`
 --
-ALTER TABLE `bill`
+ALTER TABLE `Bill`
   ADD PRIMARY KEY (`BillId`),
   ADD KEY `ApptID` (`ApptID`);
 
 --
 -- Indexes for table `department`
 --
-ALTER TABLE `department`
+ALTER TABLE `Department`
   ADD PRIMARY KEY (`DeptId`);
 
 --
 -- Indexes for table `employee`
 --
-ALTER TABLE `employee`
+ALTER TABLE `Employee`
   ADD PRIMARY KEY (`EmpID`),
-  ADD KEY `deptID` (`DeptID`);
+  ADD KEY `DeptID` (`DeptID`);
 
 --
 -- Indexes for table `employee_phone`
 --
-ALTER TABLE `employee_phone`
+ALTER TABLE `Employee_Phone`
   ADD PRIMARY KEY (`Phone`,`EmpID`),
   ADD KEY `EmpID` (`EmpID`);
 
 --
 -- Indexes for table `logindetails`
 --
-ALTER TABLE `logindetails`
+ALTER TABLE `LoginDetails`
   ADD PRIMARY KEY (`ID`);
 
 --
 -- Indexes for table `patient`
 --
-ALTER TABLE `patient`
+ALTER TABLE `Patient`
   ADD PRIMARY KEY (`PatientID`);
 
 --
 -- Indexes for table `patient_phone`
 --
-ALTER TABLE `patient_phone`
+ALTER TABLE `Patient_Phone`
   ADD PRIMARY KEY (`PatientID`,`Phone`);
 
 --
 -- Indexes for table `seenby`
 --
-ALTER TABLE `seenby`
+ALTER TABLE `SeenBy`
   ADD PRIMARY KEY (`ApptID`,`EmpId`),
   ADD KEY `EmpID` (`EmpId`);
 
@@ -427,27 +427,27 @@ ALTER TABLE `seenby`
 --
 -- AUTO_INCREMENT for table `appointment`
 --
-ALTER TABLE `appointment`
+ALTER TABLE `Appointment`
   MODIFY `ApptID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5621;
 --
 -- AUTO_INCREMENT for table `bill`
 --
-ALTER TABLE `bill`
+ALTER TABLE `Bill`
   MODIFY `BillId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=623040;
 --
 -- AUTO_INCREMENT for table `department`
 --
-ALTER TABLE `department`
+ALTER TABLE `Department`
   MODIFY `DeptId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `employee`
 --
-ALTER TABLE `employee`
+ALTER TABLE `Employee`
   MODIFY `EmpID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12021;
 --
 -- AUTO_INCREMENT for table `patient`
 --
-ALTER TABLE `patient`
+ALTER TABLE `Patient`
   MODIFY `PatientID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=198021;
 --
 -- Constraints for dumped tables
@@ -456,39 +456,39 @@ ALTER TABLE `patient`
 --
 -- Constraints for table `appointment`
 --
-ALTER TABLE `appointment`
-  ADD CONSTRAINT `appointment_ibfk_1` FOREIGN KEY (`PatientID`) REFERENCES `patient` (`PatientID`) ON DELETE CASCADE;
+ALTER TABLE `Appointment`
+  ADD CONSTRAINT `appointment_ibfk_1` FOREIGN KEY (`PatientID`) REFERENCES `Patient` (`PatientID`) ON DELETE CASCADE;
 
 --
 -- Constraints for table `bill`
 --
-ALTER TABLE `bill`
-  ADD CONSTRAINT `bill_ibfk_1` FOREIGN KEY (`ApptID`) REFERENCES `appointment` (`ApptID`) ON DELETE CASCADE;
+ALTER TABLE `Bill`
+  ADD CONSTRAINT `bill_ibfk_1` FOREIGN KEY (`ApptID`) REFERENCES `Appointment` (`ApptID`) ON DELETE CASCADE;
 
 --
 -- Constraints for table `employee`
 --
-ALTER TABLE `employee`
-  ADD CONSTRAINT `employee_ibfk_1` FOREIGN KEY (`DeptID`) REFERENCES `department` (`DeptId`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE `Employee`
+  ADD CONSTRAINT `employee_ibfk_1` FOREIGN KEY (`DeptID`) REFERENCES `Department` (`DeptId`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `employee_phone`
 --
-ALTER TABLE `employee_phone`
-  ADD CONSTRAINT `employee_phone_ibfk_1` FOREIGN KEY (`EmpID`) REFERENCES `employee` (`EmpID`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE `Employee_Phone`
+  ADD CONSTRAINT `employee_phone_ibfk_1` FOREIGN KEY (`EmpID`) REFERENCES `Employee` (`EmpID`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `patient_phone`
 --
-ALTER TABLE `patient_phone`
-  ADD CONSTRAINT `patient_phone_ibfk_1` FOREIGN KEY (`PatientID`) REFERENCES `patient` (`PatientID`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE `Patient_Phone`
+  ADD CONSTRAINT `patient_phone_ibfk_1` FOREIGN KEY (`PatientID`) REFERENCES `Patient` (`PatientID`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `seenby`
 --
-ALTER TABLE `seenby`
-  ADD CONSTRAINT `seenby_ibfk_1` FOREIGN KEY (`EmpId`) REFERENCES `employee` (`EmpID`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `seenby_ibfk_2` FOREIGN KEY (`ApptID`) REFERENCES `appointment` (`ApptID`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE `SeenBy`
+  ADD CONSTRAINT `seenby_ibfk_1` FOREIGN KEY (`EmpId`) REFERENCES `Employee` (`EmpID`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `seenby_ibfk_2` FOREIGN KEY (`ApptID`) REFERENCES `Appointment` (`ApptID`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
