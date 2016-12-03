@@ -34,51 +34,6 @@ if (isset($_REQUEST['resetPassword'])){
       newWin.close();
    }
 </script>
-<style>
-
-div#form, div#results
-	{
-    position:absolute;
-    margin: 5px;
-	}
-div#form
-	{
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-	}
-div#results
-	{
-    top:40%;
-    left:2.5%;
-    width:95%;
-	}​
-	
-    #profileImage {
-    position: relative;
-	}
-	#profileImage img {
-    position: fixed;
-    top: 80px;
-    right: 50px;
-    border: 2px solid rgba(00,11,22,33);
-	border-radius: 7px;
-}
-@media print {
-  body * {
-    visibility: hidden;
-  }
-  #section-to-print, #section-to-print * {
-    visibility: visible;
-  }
-  #section-to-print {
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
-}
-</style>
 <?php
 function displayResults() {
 	$month = mysql_real_escape_string($_REQUEST['month']);

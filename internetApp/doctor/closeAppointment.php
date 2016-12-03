@@ -23,9 +23,6 @@ echo '<script type="text/javascript">',
 <link rel="stylesheet" href="../style.css" type="text/css" />
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
-<script>
-
-</script>
 <body bgcolor="#f2f2f2" style="margin-top:30;">
 <center>
 <h2> Prescreption</h2>

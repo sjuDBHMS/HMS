@@ -35,36 +35,6 @@ if (isset($_REQUEST['resetPassword'])){
    }
 </script>
 <style>
-
-div#form, div#results
-	{
-    position:absolute;
-    margin: 5px;
-	}
-div#form
-	{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-	}
-div#results
-	{
-    top:50%;
-    left:2.5%;
-    width:95%;
-	}​
-	
-    #profileImage {
-    position: relative;
-	}
-	#profileImage img {
-    position: fixed;
-    top: 80px;
-    right: 50px;
-    border: 2px solid rgba(00,11,22,33);
-	border-radius: 7px;
-}
 @media print {
   body * {
     visibility: hidden;
@@ -89,35 +59,39 @@ function displayResults() {
 // 			ON e.EmpID= s.EmpID 
 // 			WHERE e.EmpType='Doctor' GROUP BY e.EmpID";
 	if($month=="00"){
+	if($checkBox){
 	$message=$year;
-	if($checkBox)
 		$query="SELECT e.EmpID AS EmpID, e.EmpFName AS EmpFName, e.EmpLName AS EmpLName,count(s.ApptID) AS seenCount , e.DeptID AS DeptID
 			FROM Employee e LEFT OUTER JOIN (SELECT s.ApptID, s.EmpId FROM SeenBy s, Appointment a WHERE s.ApptID=a.ApptID AND YEAR(a.ApptDate)='$year' ) s 
 			ON e.EmpID= s.EmpID 
-			WHERE e.EmpType='Doctor' AND e.EndDate is null
-			GROUP BY e.EmpID";
-	else
+			WHERE e.EmpType='Doctor' AND e.EndDate is null AND YEAR(e.StartDate)<='$year'
+			GROUP BY e.EmpID";}
+	else{
+	$message=$year."(All Doctors)";
 	$query="SELECT e.EmpID AS EmpID, e.EmpFName AS EmpFName, e.EmpLName AS EmpLName,count(s.ApptID) AS seenCount , e.DeptID AS DeptID
 			FROM Employee e LEFT OUTER JOIN (SELECT s.ApptID, s.EmpId FROM SeenBy s, Appointment a WHERE s.ApptID=a.ApptID AND YEAR(a.ApptDate)='$year' ) s 
 			ON e.EmpID= s.EmpID 
-			WHERE e.EmpType='Doctor'
-			GROUP BY e.EmpID";
+			WHERE e.EmpType='Doctor' AND YEAR(e.StartDate)<='$year'
+			GROUP BY e.EmpID";}
 	}else{
+	$message=$year;
 	$dateObj   = DateTime::createFromFormat('!m', $month);
 	$monthName = $dateObj->format('F'); 
-	$message=$monthName.", ".$year;
-	if($checkBox)
+	$date="$year-$month-31";
+	if($checkBox){
+		$message=$monthName.", ".$year;
 		$query="SELECT e.EmpID AS EmpID, e.EmpFName AS EmpFName, e.EmpLName AS EmpLName,count(s.ApptID) AS seenCount , e.DeptID AS DeptID
 			FROM Employee e LEFT OUTER JOIN (SELECT s.ApptID, s.EmpId FROM SeenBy s, Appointment a WHERE s.ApptID=a.ApptID AND MONTH(a.ApptDate)='$month' ) s 
 			ON e.EmpID= s.EmpID 
-			WHERE e.EmpType='Doctor' AND e.EndDate is null
-			GROUP BY e.EmpID";
-	else
+			WHERE e.EmpType='Doctor' AND e.EndDate is null AND e.StartDate<='$date'
+			GROUP BY e.EmpID";}
+	else{
+		$message=$monthName.", ".$year."(All Doctors)";
 		$query="SELECT e.EmpID AS EmpID, e.EmpFName AS EmpFName, e.EmpLName AS EmpLName,count(s.ApptID) AS seenCount , e.DeptID AS DeptID
 			FROM Employee e LEFT OUTER JOIN (SELECT s.ApptID, s.EmpId FROM SeenBy s, Appointment a WHERE s.ApptID=a.ApptID AND MONTH(a.ApptDate)='$month' ) s 
 			ON e.EmpID= s.EmpID 
-			WHERE e.EmpType='Doctor'
-			GROUP BY e.EmpID";
+			WHERE e.EmpType='Doctor' AND e.StartDate<='$date'
+			GROUP BY e.EmpID";}
 	
 	}
 		$results = mysql_query($query);	

@@ -24,35 +24,12 @@ if (isset($_REQUEST['resetPassword'])){
 ?>
 <head>
 <style>
-
-div#form, div#results
-	{
-    position:absolute;
-    margin: 5px;
-	}
-div#form
-	{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-	}
 div#results
 	{
     top:80%;
     left:2.5%;
     width:95%;
 	}​
-	
-    #profileImage {
-    position: relative;
-	}
-	#profileImage img {
-    position: fixed;
-    top: 80px;
-    right: 50px;
-    border: 2px solid rgba(00,11,22,33);
-	border-radius: 7px;
 }
 </style>
 <script>
@@ -145,7 +122,7 @@ function displayResults() {
 </head>
 <body  bgcolor="#f2f2f2">
 <div id="wrapper">
-<div id="form">
+<div id="editForm">
 <form name="searchForm" enctype="multipart/form-data" onsubmit="return validateForm()"  method="post" action="updateUser.php">
 </br> <label><h2>Search by ID, First Name or Last Name:</h2></label> </br>
 

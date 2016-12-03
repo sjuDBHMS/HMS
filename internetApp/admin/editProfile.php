@@ -17,24 +17,6 @@ function countdown() {
 }
 setInterval(function(){ countdown(); },1000);
 </script>
-<style>
-	#form {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    }
-    #profileImage {
-    position: relative;
-	}
-	#profileImage img {
-    position: fixed;
-    top: 80px;
-    right: 50px;
-    border: 2px solid rgba(00,11,22,33);
-	border-radius: 7px;
-}
-</style>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -144,7 +126,7 @@ function updateProfile()
 		<div id="profileImage">
 			<img src="data:image/png;base64, <?php echo base64_encode($row_sql['Image']) ?>",width=175 height=200/>
 		</div>
-		<div id="form">
+		<div id="editForm">
 		<form name="editProfileForm" enctype="multipart/form-data" onsubmit="return validateForm()"  method="post" action="editProfile.php">
 		<label>First Name:</label>
 		<input type="text" name="EmpFName" id="EmpFName" value=<?php echo($row_sql['EmpFName'])?>><span id="EmpFNameError"></span><br><br>

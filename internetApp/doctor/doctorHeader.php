@@ -29,42 +29,6 @@ if (isset($_GET['cancelApptID'])) {
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <link rel="stylesheet" href="style.css" type="text/css" />
-<style>
-.wrapper{
-margin-left: 20px;
-margin-top: -22px;
-height: 200px;
-border: 2px solid rgba(00,11,22,33);
-    border-radius: 5px;
-width:80%; 
-overflow: auto;
-	}
- table{
- 	width:98%; 
-
- }
-  table, th, td {
-	margin: 10px;
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding-left: 10%;
-	height:30%; 
-	overflow: auto;
-	background-color: #f1f1c1;
-}
-th, td {
-    padding: 5px;
-    text-align: left;
-}
-.listHeadign {
-background-color: #4A96AD;
-margin: 20px;
-border: 2px solid rgba(00,11,22,33);
-color:#2B2B2B;
-border-radius: 5px;
-width:80%; 
-}
-</style>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -155,8 +119,8 @@ function cancelApptID()
 ?>
 <body bgcolor="#f2f2f2">
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<!-- Select patients -->
-<div class="listHeadign" ><h2 style="color:#f2f2f2;">Waiting List</h2></div>
+<!-- Waiting patients -->
+<div class="listHeadign" ><h2 style="color:#f2f2f2;"> &nbsp;Waiting List</h2></div>
 <div class="wrapper">
 <?php 
 $doctorID=$_SESSION['doctor'];
@@ -204,7 +168,7 @@ echo '<h2 style="color:#a51313;font-family: courier;text-align:center;margin-top
 
 
 <!-- Selected patients -->
-<div class="listHeadign" ><h2  style="color:#f2f2f2;">Selected Patients</h2></div>
+<div class="listHeadign" ><h2  style="color:#f2f2f2;">&nbsp;Selected Patients</h2></div>
 <div class="wrapper">
 <?php 
 $doctorID=$_SESSION['doctor'];
