@@ -44,13 +44,13 @@ div#form, div#results
 div#form
 	{
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 	}
 div#results
 	{
-    top:40%;
+    top:50%;
     left:2.5%;
     width:95%;
 	}​
@@ -83,25 +83,40 @@ div#results
 function displayResults() {
 	$month = mysql_real_escape_string($_REQUEST['month']);
 	$year = mysql_real_escape_string($_REQUEST['year']);
+	$checkBox=mysql_real_escape_string($_REQUEST['searchCurrentEmp']);
 // 	$query="SELECT e.EmpID AS EmpID, e.EmpFName AS EmpFName, e.EmpLName AS EmpLName,count(s.ApptID) AS seenCount 
 // 			FROM Employee e LEFT OUTER JOIN SeenBy s 
 // 			ON e.EmpID= s.EmpID 
 // 			WHERE e.EmpType='Doctor' GROUP BY e.EmpID";
 	if($month=="00"){
 	$message=$year;
-	$query="SELECT e.EmpID AS EmpID, e.EmpFName AS EmpFName, e.EmpLName AS EmpLName,count(s.ApptID) AS seenCount , e.DeptID AS DeptID
+	if($checkBox)
+		$query="SELECT e.EmpID AS EmpID, e.EmpFName AS EmpFName, e.EmpLName AS EmpLName,count(s.ApptID) AS seenCount , e.DeptID AS DeptID
 			FROM Employee e LEFT OUTER JOIN (SELECT s.ApptID, s.EmpId FROM SeenBy s, Appointment a WHERE s.ApptID=a.ApptID AND YEAR(a.ApptDate)='$year' ) s 
 			ON e.EmpID= s.EmpID 
 			WHERE e.EmpType='Doctor' AND e.EndDate is null
+			GROUP BY e.EmpID";
+	else
+	$query="SELECT e.EmpID AS EmpID, e.EmpFName AS EmpFName, e.EmpLName AS EmpLName,count(s.ApptID) AS seenCount , e.DeptID AS DeptID
+			FROM Employee e LEFT OUTER JOIN (SELECT s.ApptID, s.EmpId FROM SeenBy s, Appointment a WHERE s.ApptID=a.ApptID AND YEAR(a.ApptDate)='$year' ) s 
+			ON e.EmpID= s.EmpID 
+			WHERE e.EmpType='Doctor'
 			GROUP BY e.EmpID";
 	}else{
 	$dateObj   = DateTime::createFromFormat('!m', $month);
 	$monthName = $dateObj->format('F'); 
 	$message=$monthName.", ".$year;
+	if($checkBox)
 		$query="SELECT e.EmpID AS EmpID, e.EmpFName AS EmpFName, e.EmpLName AS EmpLName,count(s.ApptID) AS seenCount , e.DeptID AS DeptID
 			FROM Employee e LEFT OUTER JOIN (SELECT s.ApptID, s.EmpId FROM SeenBy s, Appointment a WHERE s.ApptID=a.ApptID AND MONTH(a.ApptDate)='$month' ) s 
 			ON e.EmpID= s.EmpID 
 			WHERE e.EmpType='Doctor' AND e.EndDate is null
+			GROUP BY e.EmpID";
+	else
+		$query="SELECT e.EmpID AS EmpID, e.EmpFName AS EmpFName, e.EmpLName AS EmpLName,count(s.ApptID) AS seenCount , e.DeptID AS DeptID
+			FROM Employee e LEFT OUTER JOIN (SELECT s.ApptID, s.EmpId FROM SeenBy s, Appointment a WHERE s.ApptID=a.ApptID AND MONTH(a.ApptDate)='$month' ) s 
+			ON e.EmpID= s.EmpID 
+			WHERE e.EmpType='Doctor'
 			GROUP BY e.EmpID";
 	
 	}
@@ -164,6 +179,7 @@ function displayResults() {
 	
 <label>Year :&emsp;</label>
 	<select name="year" id="year" ></select></span><span id="yearError"></span><br><br>
+	<input type="checkbox" name="searchCurrentEmp" id="searchCurrentEmp" value="true" checked> Search only Current employee.<br><br>
 	
 <input type="submit" name="reportForm"></br>
 

@@ -6,6 +6,9 @@ if (isset($_REQUEST['deleteuser'])){
 	$deleteQuery = "DELETE FROM LoginDetails WHERE ID='$userID'";
 	$message="Successfully deleted";
 	mysql_query($deleteQuery);
+	$mysqldate = date("Y-m-d");
+	$updateEmpEndEate="UPDATE Employee SET EndDate='$mysqldate' WHERE EmpID='$userID'";
+	mysql_query($updateEmpEndEate);
 	unset($_GET['deleteuser']);
 	echo '<center><h2 style="color: green;font-family:verdana;margin-top:30px;"> '.$message.'</h2>';
 }
@@ -51,7 +54,6 @@ div#results
     border: 2px solid rgba(00,11,22,33);
 	border-radius: 7px;
 }
-
 </style>
 <script>
 function validateForm() {

@@ -209,4 +209,11 @@ border: 2px solid black;
 width:80%; 
 	border: 2px solid black;
 }
+span {
+Padding-left:10px;
+color: #D8000C;
+}
+#counter{
+background-color: #f2f2f2;
+}
 </style>
