@@ -19,13 +19,21 @@ echo '<script type="text/javascript">',
 
 }
 ?>
+<head>
+<link rel="stylesheet" href="../style.css" type="text/css" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
 <script>
 
 </script>
+<body bgcolor="#f2f2f2" style="margin-top:30;">
+<center>
 <h2> Prescreption</h2>
 <form method="post" action="closeAppointment.php">
 <textarea rows="10" cols="50" name="Prescription"></textarea>
 <input type="hidden" name="ApptID" value= <?php echo $_GET['ApptID']; ?> ><br>
 <input type="submit" value= "Prescribe and Close" style="width: 30%;" name="closeAppointment" />
 </form>
+<center>
+</body>
 </html>

@@ -28,7 +28,7 @@ if (isset($_GET['cancelApptID'])) {
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<link rel="stylesheet" href="../style.css" type="text/css" />
+<link rel="stylesheet" href="style.css" type="text/css" />
 <style>
 .wrapper{
 margin-left: 20px;
@@ -57,8 +57,10 @@ th, td {
     text-align: left;
 }
 .listHeadign {
+background-color: #4A96AD;
 margin: 20px;
 border: 2px solid rgba(00,11,22,33);
+color:#2B2B2B;
 border-radius: 5px;
 width:80%; 
 }
@@ -154,7 +156,7 @@ function cancelApptID()
 <body bgcolor="#f2f2f2">
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <!-- Select patients -->
-<div class="listHeadign" ><h2>Waiting List</h2></div>
+<div class="listHeadign" ><h2 style="color:#f2f2f2;">Waiting List</h2></div>
 <div class="wrapper">
 <?php 
 $doctorID=$_SESSION['doctor'];
@@ -196,13 +198,13 @@ if(mysql_num_rows($apptResult)>0)
 </table>
 <?php 
 }else
-echo '<h2 style="color:#a51313;font-family: courier;">No appointments found<h2>';
+echo '<h2 style="color:#a51313;font-family: courier;text-align:center;margin-top:50px">No appointments found<h2>';
 ?>
 </div>
 
 
 <!-- Selected patients -->
-<div class="listHeadign" ><h2>Selected Patients</h2></div>
+<div class="listHeadign" ><h2  style="color:#f2f2f2;">Selected Patients</h2></div>
 <div class="wrapper">
 <?php 
 $doctorID=$_SESSION['doctor'];
@@ -265,7 +267,7 @@ if(mysql_num_rows($apptResult)>0)
 </table>
 <?php 
 }else
-echo '<h2 style="color:#a51313;font-family: courier;">No Patient Selected<h2>';
+echo '<h2 style="color:#a51313;font-family: courier;text-align:center;margin-top:50px">No Patient Selected<h2>';
 ?>
 </div>
 

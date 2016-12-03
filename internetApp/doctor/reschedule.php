@@ -21,6 +21,15 @@ echo '<script type="text/javascript">',
 }
 ?>
 <head>
+<style>
+div {
+    margin-top: 30px;
+    margin-left: 3px;
+
+}
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css" />
+<link rel="stylesheet" href="style.css" type="text/css" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>jQuery UI Datepicker - Default functionality</title>
@@ -32,33 +41,18 @@ echo '<script type="text/javascript">',
   $( function() {
     $( "#datepicker" ).datepicker();
   } );
-  </script>
-</head>
-<body>
- 
-
- <h2> Reschedule</h2>
-<form name="rescheduleform" onsubmit="return validateForm()" method="post" action="reschedule.php">
-<p>Date: </p>
-<input type="text" name="AppDate" id="datepicker"><span id="dateError"></span><p>
-<input type="hidden" name="PatientID" value= <?php echo $_GET['PatientID']; ?> ><p>
-<p>Time:</p>
-<input type="time" name="AppTime" id="time"><span id="timeError"></span><p>
-<input type="submit" value= "Reschedule and Close" style="width: 30%;" name="rescheduleAppointment" />
-</form>
-<script>
-function validateForm() {
+  function validateForm() {
     var date = document.forms["rescheduleform"]["AppDate"].value;
     var time = document.forms["rescheduleform"]["AppTime"].value;
     var date_regex = /^(0[1-9]|1[0-2])\/(0[1-9]|1\d|2\d|3[01])\/(19|20)\d{2}$/ ;
     var regex = /^([0]\d|[1][0-2]):([0-5]\d)\s?(?:AM|PM)$/i;
     if (date == "") {
-        document.getElementById("dateError").innerHTML = "Error: Date cannot be empty!";
+        document.getElementById("dateError").innerHTML = "&#9754; Error: Date cannot be empty!";
         document.getElementById("datepicker").focus();
         return false;
     }else if(!(date_regex.test(date)))
     {
-    	document.getElementById("dateError").innerHTML = "Error: Invalid Date!";
+    	document.getElementById("dateError").innerHTML = "&#9754; Error: Invalid Date!";
         document.getElementById("datepicker").focus();
         return false;
     }
@@ -67,17 +61,30 @@ function validateForm() {
     	}
     
     if (time == "") {
-        document.getElementById("timeError").innerHTML = "Error: time cannot be empty!";
+        document.getElementById("timeError").innerHTML = "&#9754; Error: time cannot be empty!";
         document.getElementById("time").focus();
         return false;
     }else if(!(regex.test(time))) {
-		document.getElementById("timeError").innerHTML = "Invalid time format: " ;
+		document.getElementById("timeError").innerHTML = "&#9754; Invalid time format: " ;
       	document.getElementById("time").focus();
       	return false;
     }else{
     	document.getElementById("timeError").innerHTML = "&#10003;";
     	}
 }
-</script>
+  </script>
+</head>
+<body bgcolor="#f2f2f2">
+<div>
+<h2> Reschedule</h2>
+<form name="rescheduleform" onsubmit="return validateForm()" method="post" action="reschedule.php">
+<p>Date: </p>
+<input type="text" name="AppDate" id="datepicker"><span id="dateError"></span><p>
+<input type="hidden" name="PatientID" value= <?php echo $_GET['PatientID']; ?> ><p>
+<p>Time:</p>
+<input type="time" name="AppTime" id="time"><span id="timeError"></span><p>
+<input type="submit" value= "Reschedule and Close" style="width: 30%;" name="rescheduleAppointment" />
+</form>
+</div>
 </body>
 </html>
