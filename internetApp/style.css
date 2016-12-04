@@ -181,12 +181,15 @@ table tr td a
 .wrapper{
 margin-left: 20px;
 margin-top: -22px;
-height: 200px;
+height: 250px;
 border: 2px solid rgba(00,11,22,33);
     border-radius: 5px;
 width:80%; 
 overflow: auto;
 	}
+#ApptView.wrapper{
+height:500px;
+}
  table{
  	width:98%; 
 
@@ -256,4 +259,22 @@ div#results
     border: 2px solid rgba(00,11,22,33);
 	border-radius: 7px;
 }
+li:hover ul {
+    display: block;
+    position: absolute;
+}
+li:hover li {
+    float: none;
+    font-size: 80%;
+}
+li:hover a { background: gray; }
+li:hover li a:hover {
+    background: #333;
+}
+	.dpdwn ul{
+		display: none;
+	}
+	.dpdwn:hover ul {
+		display:block;
+	}
 </style>

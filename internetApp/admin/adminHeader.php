@@ -16,35 +16,13 @@ if(!isset($_SESSION['admin']))
 <title>Welcome - <?php echo $userName; ?></title>
 <link rel="stylesheet" href="../style.css" type="text/css" />
 <link rel="stylesheet" href="style.css" type="text/css" />
-<style>
-
-
-li:hover ul {
-    display: block;
-    position: absolute;
-}
-li:hover li {
-    float: none;
-    font-size: 80%;
-}
-li:hover a { background: #252a33; }
-li:hover li a:hover {
-    background: #252a33;
-}
-	.dpdwn ul{
-		display: none;
-	}
-	.dpdwn:hover ul {
-		display:block;
-	}
-</style>
 <link rel="stylesheet" href="../style.css" type="text/css" />
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 <div id="resHeader">
 <ul>
 <li><a href="admin.php">Home</a></li>
-<li class="dpdwn"><a href="#">Report</a>
+<li class="dpdwn"><a style="background:#333;" href="#">Report</a>
 			<ul>
 				<li><a href="doctorReport.php">Doctor Report</a></li><br>
 				<li><a href="billReport.php">Billing Report</a></li>

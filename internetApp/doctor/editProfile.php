@@ -25,6 +25,12 @@ setInterval(function(){ countdown(); },1000);
 <div id="resHeader">
 <ul>
 	<li><a href="doctor.php">Home</a></li>
+	<li class="dpdwn"><a style="background:#333;" href="view.php">Appointments</a>
+			<ul>
+				<li><a href="searchAppt.php">Search Appointments</a></li>
+				<li><a href="view.php">View Appointments</a></li>
+			</ul>
+	</li>
 	<li style="float:right"><a class="active" href="../login/logout.php?logout">Sign Out</a></li>
 	<li style="float:right"><a href="editProfile.php">Edit Profile</a></li>
 	<li style="float:right"><a href="doctor.php">Welcome <?php echo $_SESSION['EmpFName']; ?></a></li>

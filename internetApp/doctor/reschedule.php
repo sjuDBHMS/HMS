@@ -44,6 +44,8 @@ div {
   function validateForm() {
     var date = document.forms["rescheduleform"]["AppDate"].value;
     var time = document.forms["rescheduleform"]["AppTime"].value;
+    var d1 = new Date();
+	var d2 = new Date(date);
     var date_regex = /^(0[1-9]|1[0-2])\/(0[1-9]|1\d|2\d|3[01])\/(19|20)\d{2}$/ ;
     var regex = /^([0]\d|[1][0-2]):([0-5]\d)\s?(?:AM|PM)$/i;
     if (date == "") {
@@ -53,6 +55,10 @@ div {
     }else if(!(date_regex.test(date)))
     {
     	document.getElementById("dateError").innerHTML = "&#9754; Error: Invalid Date!";
+        document.getElementById("datepicker").focus();
+        return false;
+    }else if(d2<d1){
+    	document.getElementById("dateError").innerHTML = "&#9754; Error: Date cannot be before today!";
         document.getElementById("datepicker").focus();
         return false;
     }
