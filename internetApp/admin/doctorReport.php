@@ -65,14 +65,16 @@ function displayResults() {
 			FROM Employee e LEFT OUTER JOIN (SELECT s.ApptID, s.EmpId FROM SeenBy s, Appointment a WHERE s.ApptID=a.ApptID AND YEAR(a.ApptDate)='$year' ) s 
 			ON e.EmpID= s.EmpID 
 			WHERE e.EmpType='Doctor' AND e.EndDate is null AND YEAR(e.StartDate)<='$year'
-			GROUP BY e.EmpID";}
+			GROUP BY e.EmpID
+			ORDER BY seenCount DESC";}
 	else{
 	$message=$year."(All Doctors)";
 	$query="SELECT e.EmpID AS EmpID, e.EmpFName AS EmpFName, e.EmpLName AS EmpLName,count(s.ApptID) AS seenCount , e.DeptID AS DeptID
 			FROM Employee e LEFT OUTER JOIN (SELECT s.ApptID, s.EmpId FROM SeenBy s, Appointment a WHERE s.ApptID=a.ApptID AND YEAR(a.ApptDate)='$year' ) s 
 			ON e.EmpID= s.EmpID 
 			WHERE e.EmpType='Doctor' AND YEAR(e.StartDate)<='$year'
-			GROUP BY e.EmpID";}
+			GROUP BY e.EmpID
+			ORDER BY seenCount DESC";}
 	}else{
 	$message=$year;
 	$dateObj   = DateTime::createFromFormat('!m', $month);
@@ -84,14 +86,16 @@ function displayResults() {
 			FROM Employee e LEFT OUTER JOIN (SELECT s.ApptID, s.EmpId FROM SeenBy s, Appointment a WHERE s.ApptID=a.ApptID AND MONTH(a.ApptDate)='$month' ) s 
 			ON e.EmpID= s.EmpID 
 			WHERE e.EmpType='Doctor' AND e.EndDate is null AND e.StartDate<='$date'
-			GROUP BY e.EmpID";}
+			GROUP BY e.EmpID
+			ORDER BY seenCount DESC";}
 	else{
 		$message=$monthName.", ".$year."(All Doctors)";
 		$query="SELECT e.EmpID AS EmpID, e.EmpFName AS EmpFName, e.EmpLName AS EmpLName,count(s.ApptID) AS seenCount , e.DeptID AS DeptID
 			FROM Employee e LEFT OUTER JOIN (SELECT s.ApptID, s.EmpId FROM SeenBy s, Appointment a WHERE s.ApptID=a.ApptID AND MONTH(a.ApptDate)='$month' ) s 
 			ON e.EmpID= s.EmpID 
 			WHERE e.EmpType='Doctor' AND e.StartDate<='$date'
-			GROUP BY e.EmpID";}
+			GROUP BY e.EmpID
+			ORDER BY seenCount DESC";}
 	
 	}
 		$results = mysql_query($query);	
