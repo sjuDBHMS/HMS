@@ -102,9 +102,11 @@ function displayResults() {
 		if(mysql_num_rows($results)==0){
 		echo '<h2 style="color:#a51313;font-family: courier;text-align:center;">No Results</h2>';}
 		else
-		{echo '<h2 style="color:green;font-family: courier;text-align:center;">Doctor Report for '.$message.'.</h2>';
+		{
+		echo '<div id="section-to-print">';
+		echo '<h2 style="color:green;font-family: courier;text-align:center;">Doctor Report for '.$message.'.</h2>';
 		?>
-		<div id="section-to-print">
+		
 		<table id="t01">
 			<tr>
 	    	<th>Employee ID</th>

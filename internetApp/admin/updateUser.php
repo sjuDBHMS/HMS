@@ -55,9 +55,9 @@ function displayResults() {
 		$query="SELECT * FROM Patient p, LoginDetails l WHERE (PatientID='$ID' or PatientFName='$fName' or PatientLName='$lName') AND p.PatientID=l.ID";
 		$results = mysql_query($query);	
 		if(mysql_num_rows($results)==0){
-		echo '<h2 style="color:#a51313;font-family: courier;text-align:center;">No Matches found try again<h2>';}
+		echo '<h2 style="color:#a51313;font-family: courier;text-align:center;">No Matches found try again</h2>';}
 		else
-		{?>
+		{echo '<h2 style="color:green;font-family: courier;text-align:center;">Patient search Results: </h2>';?>
 		<table id="t01">
 			<tr>
 	    	<th>PatientID</th>
@@ -77,8 +77,8 @@ function displayResults() {
         	echo '<td>' . $row['PatientLName'] . '</td>';
         	echo '<td>' . $row['PatientAddress'] . '</td>';
         	echo '<td>' . $row['DOB'] . '</td>';
-        	echo '<td><a href="updateUser.php?resetPassword=' . $row['PatientID'] . '">Reset Password</a></td>';
-        	echo '<td><a href="updateUser.php?deleteuser=' . $row['PatientID'] . '">Delete</a></td>';
+        	echo '<td><a href="updateUser.php?resetPassword=' . $row['PatientID'] . '" onclick="return confirm(\'Really delete?\');">Reset Password</a></td>';
+        	echo '<td><a href="updateUser.php?deleteuser=' . $row['PatientID'] . '" onclick="return confirm(\'Really delete?\');">Delete</a></td>';
 			echo '</tr>';
 		}
 		echo '</table>';
@@ -88,9 +88,9 @@ function displayResults() {
 		$query="SELECT * FROM Employee e , LoginDetails l WHERE (EmpID = '$ID' or EmpFName = '$fName' or EmpLName = '$lName')  AND e.EmpID=l.ID";
 		$results = mysql_query($query);	
 		if(mysql_num_rows($results)==0){
-		echo '<h2 style="color:#a51313;font-family: courier;text-align:center;">No Matches found try again<h2>';}
+		echo '<h2 style="color:#a51313;font-family: courier;text-align:center;">No Matches found try again</h2>';}
 		else
-		{?>
+		{echo '<h2 style="color:green;font-family: courier;text-align:center;">Employee search Results: </h2>';?>
 		<table id="t01">
 			<tr>
 	    	<th>Employee ID</th>
@@ -108,8 +108,8 @@ function displayResults() {
         	echo '<td>' . $row['EmpFName'] . '</td>';
         	echo '<td>' . $row['EmpLName'] . '</td>';
         	echo '<td>' . $row['EmpAddress'] . '</td>';
-        	echo '<td><a href="updateUser.php?resetPassword=' . $row['EmpID'] . '">Reset Password</a></td>';
-        	echo '<td><a href="updateUser.php?deleteuser=' . $row['EmpID'] . '">Delete</a></td>';
+        	echo '<td><a href="updateUser.php?resetPassword=' . $row['EmpID'] . '" onclick="return confirm(\'Reset Password for '.$row['EmpFName'].' '.$row['EmpLName'].' ?\');">Reset Password</a></td>';
+        	echo '<td><a href="updateUser.php?deleteuser=' . $row['EmpID'] . '" onclick="return confirm(\'Sure want to delete '.$row['EmpFName'].' '.$row['EmpLName'].' ?\');" >Delete</a></td>';
 			echo '</tr>';
 		}
 		echo '</table>';

@@ -221,7 +221,7 @@ echo '<h2 style="color:green;font-family: courier;text-align:center;">Appointmen
 	        		<input type="hidden" name="date" value= "<?php echo $date; ?>" >
 	        		<input type="hidden" name="month" value= "<?php echo $month; ?>" >
 	        		<input type="hidden" name="year" value= "<?php echo $year; ?>" >
-	        		<input type="submit" value= "ReOpen" name="reopen" />
+	        		<input type="submit" value= "ReOpen" name="reopen"  onclick="return confirm('Are you sure want to reopen Appointmen: <?php echo $row['ApptID']?> ?')" />
 				</form>
         	</td>
         	<?php

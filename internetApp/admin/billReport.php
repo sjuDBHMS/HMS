@@ -34,6 +34,21 @@ if (isset($_REQUEST['resetPassword'])){
       newWin.close();
    }
 </script>
+<style>
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #section-to-print, #section-to-print * {
+    visibility: visible;
+  }
+  #section-to-print {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+</style>
 <?php
 function displayResults() {
 	$month = mysql_real_escape_string($_REQUEST['month']);
@@ -113,7 +128,9 @@ function displayResults() {
 <div id="results">
 <?php
 if (isset($_REQUEST['reportForm'])) {
+		echo '<div id="section-to-print">';
 		displayResults();
+		echo '</div>';
 	    unset($_REQUEST['reportForm']);
 }?>
 </div>
