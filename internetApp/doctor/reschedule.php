@@ -13,7 +13,10 @@ function rescheduleAppointment()
 	$PatientID=  $_REQUEST['PatientID'];
 	
 	$AppDate=  date("Y-m-d", strtotime($_REQUEST['AppDate']) );
-	$query="INSERT INTO Appointment( AppDate, AppTime, PatientID) VALUES ('$AppDate', '$AppTime', '$PatientID')";
+	$t=mysql_query("SELECT STR_TO_DATE( '$AppTime', '%l:%i %p' )");
+	$row = mysql_fetch_array($t);
+	$time= $row[0];
+	$query="INSERT INTO Appointment( ApptDate, ApptTime, PatientID) VALUES ('$AppDate', '$time', '$PatientID')";
 	$result = mysql_query($query);	
 echo '<script type="text/javascript">',
      'parent.jQuery.colorbox.close();',
