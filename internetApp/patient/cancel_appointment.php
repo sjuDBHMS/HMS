@@ -10,7 +10,6 @@ $query="DELETE FROM Appointment where ApptID='$appointment_id'";
 $db->exec($query);
 
 	
-		header("Location: myappointments.php");
 	
 
 	
@@ -19,6 +18,10 @@ catch(PDOException $e)
 {
 echo $sql . "<br>" . $e->getMessage();
 }  
+
+
+		header("Location: myappointments.php");
+
 ?>
 
 
