@@ -7,9 +7,13 @@ require_once('database.php');
 try {
 $query="DELETE FROM Appointment where ApptID='$appointment_id'";
 
-$db->exec($query);
-
+if ($db->exec($query))
+{
+	
 		header("Location: myappointments.php");
+	
+}
+
 
 	
 }
