@@ -28,7 +28,12 @@ if(!isset($_SESSION['admin']))
 				<li><a href="billReport.php">Billing Report</a></li>
 			</ul>
 </li>
-  <li><a href="updateUser.php">Update/delete User</a></li>
+<li class="dpdwn"><a style="background:#333;" href="#">User</a>
+			<ul>
+				<li><a href="addUser.php" style="padding-right:3.2em;"> Add new User</a></li></br>
+				<li><a href="updateUser.php">Update/delete User</a></li>
+			</ul>
+</li>
   <li style="float:right"><a class="active" href="../login/logout.php?logout">Sign Out</a></li>
   <li style="float:right"><a href="editProfile.php">Edit Profile</a></li>
   <li style="float:right"><a href="admin.php">Welcome <?php echo $userName ?></a></li>
