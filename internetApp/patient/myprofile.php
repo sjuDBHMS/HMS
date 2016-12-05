@@ -10,8 +10,8 @@ include_once 'patientHeader.php';
 <?php
 $ID=$_SESSION['user'];
 $query="SELECT * 
-FROM patient , patient_phone
-WHERE patient.patientID=patient_phone.patientID AND patient.patientID=$ID";
+FROM Patient , Patient_Phone
+WHERE Patient.PatientID=Patient_Phone.PatientID AND Patient.PatientID=$ID";
 $result= $db->query($query);
 
  ?>

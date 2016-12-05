@@ -17,8 +17,8 @@ include_once 'patientHeader.php';
 $ID=$_SESSION['user'];
 #$query="SELECT * FROM patientWHERE patientID=$ID";
 $query="SELECT * 
-FROM patient, patient_phone, logindetails
-where patient.PatientID=patient_phone.PatientID AND patient.PatientID=logindetails.ID AND patient.patientID=$ID";
+FROM Patient, Patient_Phone, LoginDetails
+where Patient.PatientID=Patient_Phone.PatientID AND Patient.PatientID=Logindetails.ID AND Patient.PatientID=$ID";
 $result= $db->query($query);
 
  ?>

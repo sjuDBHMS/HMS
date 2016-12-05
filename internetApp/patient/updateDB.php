@@ -22,25 +22,25 @@ require 'database.php';
 
 	if(!empty($fName) && !empty($lName) && !empty($dateOfBearth) && !empty($address)) 
 	{
-	$query1="UPDATE patient set PatientFName='$fName', PatientLName='$lName', DOB='$dateOfBearth', PatientAddress='$address' where PatientID=$ID";
+	$query1="UPDATE Patient set PatientFName='$fName', PatientLName='$lName', DOB='$dateOfBearth', PatientAddress='$address' where PatientID=$ID";
 	$db->exec($query1);
 			
 	}		
 	
 	if(!empty($phone1)){
-	$query2="UPDATE patient_phone set Phone='$phone1' where PatientID=$ID And Phone='$oldphone1'";
+	$query2="UPDATE Patient_Phone set Phone='$phone1' where PatientID=$ID And Phone='$oldphone1'";
 	$db->exec($query2);	
 	}
 	
 	
 	if(!empty($phone2))
 	{
-	$query3="UPDATE patient_phone set Phone='$phone2' where PatientID=$ID And Phone='$oldphone2'";
+	$query3="UPDATE Patient_Phone set Phone='$phone2' where PatientID=$ID And Phone='$oldphone2'";
 	$db->exec($query3);
 	}
 	if(!empty($pass))
 	{
-	$query4="UPDATE logindetails set Password='$pass' where ID=$ID";
+	$query4="UPDATE LoginDetails set Password='$pass' where ID=$ID";
 	$db->exec($query4);
 		
 	}
