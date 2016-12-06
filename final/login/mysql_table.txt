@@ -1,0 +1,8 @@
+CREATE DATABASE `dbtest` ;
+CREATE TABLE `dbtest`.`users` (
+`user_id` INT( 5 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`user_name` VARCHAR( 25 ) NOT NULL ,
+`user_email` VARCHAR( 35 ) NOT NULL ,
+`user_pass` VARCHAR( 50 ) NOT NULL ,
+UNIQUE (`user_email`)
+) ENGINE = MYISAM ;

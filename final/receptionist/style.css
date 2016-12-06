@@ -1,0 +1,99 @@
+<style>
+input[type=time], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+input[type=text],input[type=date], input[type=number], input[type=time] {
+	    padding: 12px 20px;
+	    margin: 8px 0;
+	    display: inline-block;
+	    border: 1px solid #ccc;
+	    border-radius: 10px;
+	    box-sizing: border-box;
+	}
+
+/*
+
+input[type=date], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type=time], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+*/
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.wrapper{
+margin-left: 20px;
+margin-top: -22px;
+height: 200px;
+border: 2px solid black;
+width:80%; 
+overflow: auto;
+	}
+ table{
+ 	width:98%; 
+
+ }
+  table, th, td {
+	margin: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 10%;
+	height:30%; 
+	overflow: auto;
+	background-color: #f1f1c1;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+.listHeadign {
+margin: 20px;
+border: 2px solid black;
+width:80%; 
+	border: 2px solid black;
+}
+</style>
