@@ -7,7 +7,6 @@ if(!isset($_SESSION['doctor']))
 if (isset($_GET['selectPatientID'])) {
     selectPatient();
     unset($_GET['selectPatientID']);
-    header("Location: doctor.php");
 }
 if (isset($_REQUEST['updateComment'])) {
     updateComment();
@@ -55,29 +54,40 @@ function selectPatient() {
 	$doctorID=$_SESSION['doctor'];
 	$patientID=$_GET['selectPatientID'];
 	$ApptID= $_GET['appointmentID'];
-	$query="UPDATE Appointment SET ApptStatus=$doctorID WHERE ApptID=$ApptID";
-	$result = mysql_query($query);
-	//To check if the data already exist
-	$seenByquery="SELECT * from SeenBy where ApptID=$ApptID and EmpId=$doctorID";
-	$result = mysql_query($seenByquery);
-	if(mysql_num_rows($result)==0)
-	{
-		$query='INSERT INTO SeenBy(ApptID, EmpId) VALUES ('.$ApptID.','.$doctorID.')';
-		$retval=mysql_query($query);
-	}
-	$Billquery="SELECT * from Bill where ApptID=$ApptID ";
-	$result = mysql_query($Billquery);
-	$row = mysql_fetch_array($result);
-	if(mysql_num_rows($result)==0)
-	{
-		$query='INSERT INTO Bill( PendingAmount, TotalAmount, Paid, ApptID) VALUES ( 30, 30, 0, '.$ApptID.')';
-		$retval=mysql_query($query);
-	}else{
-		$BillId=$row['BillId'];
-		$TotalAmount=$row['TotalAmount']+30;
-		$PendingAmount= $row['PendingAmount']+30;
-		$query="UPDATE Bill SET PendingAmount= '$PendingAmount', TotalAmount= '$TotalAmount' WHERE BillId= '$BillId' " ;
-		mysql_query($query);
+	$checkQuery="SELECT ApptStatus FROM `appointment` WHERE ApptID='$ApptID' AND ApptStatus IS NOT null"; 
+	$r = mysql_query($checkQuery); 
+	if(mysql_num_rows($r)==0) 
+		{
+		$query="UPDATE Appointment SET ApptStatus=$doctorID WHERE ApptID=$ApptID";
+		$result = mysql_query($query);
+		//To check if the data already exist
+		$seenByquery="SELECT * from SeenBy where ApptID=$ApptID and EmpId=$doctorID";
+		$result = mysql_query($seenByquery);
+		if(mysql_num_rows($result)==0)
+		{
+			$query='INSERT INTO SeenBy(ApptID, EmpId) VALUES ('.$ApptID.','.$doctorID.')';
+			$retval=mysql_query($query);
+		}
+		$Billquery="SELECT * from Bill where ApptID=$ApptID ";
+		$result = mysql_query($Billquery);
+		$row = mysql_fetch_array($result);
+		if(mysql_num_rows($result)==0)
+		{
+			$query='INSERT INTO Bill( PendingAmount, TotalAmount, Paid, ApptID) VALUES ( 30, 30, 0, '.$ApptID.')';
+			$retval=mysql_query($query);
+		}else{
+			$BillId=$row['BillId'];
+			$TotalAmount=$row['TotalAmount']+30;
+			$PendingAmount= $row['PendingAmount']+30;
+			$query="UPDATE Bill SET PendingAmount= '$PendingAmount', TotalAmount= '$TotalAmount' WHERE BillId= '$BillId' " ;
+			mysql_query($query);
+		}
+	header("Location: doctor.php"); 
+	}else{ 
+		echo '<script type="text/javascript">';  
+	    echo 'alert("The Appointment ID: '.$ApptID.'  is already selected");';  
+    	echo 'window.location.href = "doctor.php";'; 
+    	echo '</script>'; 
 	}
 	
   }
